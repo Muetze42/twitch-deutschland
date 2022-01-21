@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     {
         $schedule->command('youtube-scraper:subscriptions')->everyFifteenMinutes();
         $schedule->command('youtube-scraper:update:timed')->hourlyAt(17);
-        $schedule->command('youtube-scraper:update:twitch-users')->dailyAt('4:37');
+        $schedule->command('youtube-scraper:update:twitch-users')->hourlyAt('47');
     }
 
     /**

@@ -17,11 +17,13 @@ class VideoController extends Controller
         $videos = Video::query()->ordered()
             ->whereHas('broadcasters')
             ->when(Request::input('search'), function ($query, $search) {
-                $query->where('title', 'like', '%'.$search.'%')
-                    ->orWhere('description', 'like', '%'.$search.'%')
-                    ->orWhereHas('broadcasters', function ($query) use ($search) {
-                        return $query->where('name', 'like', '%'.$search.'%')->orWhere('display_name', 'like', '%'.$search.'%');
-                    });
+                $query->where(function ($query) use ($search) {
+                    $query->where('title', 'like', '%'.$search.'%')
+                        ->orWhere('description', 'like', '%'.$search.'%')
+                        ->orWhereHas('broadcasters', function ($query) use ($search) {
+                            return $query->where('name', 'like', '%'.$search.'%')->orWhere('display_name', 'like', '%'.$search.'%');
+                        });
+                });
             })
             ->paginate($this->limit)
             ->withQueryString()

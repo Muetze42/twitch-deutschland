@@ -1,8 +1,8 @@
 header {
-    @apply bg-gray-900 border-b-2 border-gray-700 fixed top-0 left-0 w-full flex justify-between sm:px-2;
+    @apply bg-gray-900 border-b-2 border-gray-700 fixed top-0 left-0 w-full flex  sm:px-2;
 
     nav {
-        @apply flex;
+        @apply flex flex-auto;
     }
     a {
         @apply p-2 border-l border-r border-gray-800 text-slate-400;
@@ -15,7 +15,7 @@ header {
         }
     }
     #search {
-        @apply p-2 sm:border-l sm:border-r sm:border-gray-800 text-slate-400 text-sm w-48 max-w-[12rem];
+        @apply p-2 sm:border-l sm:border-r sm:border-gray-800 text-slate-400 text-sm;
 
         input {
             @apply text-gray-900 placeholder-slate-400 px-2 bg-white border focus:ring-1 focus:outline-none focus:border-fuchsia-500 focus:ring-fuchsia-500 rounded-sm;
