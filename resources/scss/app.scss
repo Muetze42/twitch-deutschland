@@ -20,6 +20,7 @@ h1 {
 
 main {
     @apply px-4 pt-4 sm:pb-14 pb-8 sm:overflow-y-auto my-[2.625rem];
+    min-height: calc(100vh - 128px);
     @media (min-width: 640px) {
         height: calc(100vh - 84px);
     }
