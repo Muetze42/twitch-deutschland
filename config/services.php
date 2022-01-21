@@ -50,6 +50,7 @@ return [
         'client_id'     => null,
         'client_secret' => env('TELEGRAM_TOKEN'),
         'redirect'      => env('TELEGRAM_REDIRECT_URI'),
+        'dev-receiver'  => env('TELEGRAM_DEV_RECEIVER'),
     ],
 
     'font-awesome' => [

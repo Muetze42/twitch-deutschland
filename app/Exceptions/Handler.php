@@ -2,11 +2,14 @@
 
 namespace App\Exceptions;
 
+use App\Traits\ErrorExceptionNotify;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;
 use Throwable;
 
 class Handler extends ExceptionHandler
 {
+    use ErrorExceptionNotify;
+
     /**
      * A list of the exception types that are not reported.
      *
@@ -26,6 +29,26 @@ class Handler extends ExceptionHandler
         'password',
         'password_confirmation',
     ];
+
+    /**
+     * @param Throwable $e
+     * @throws Throwable
+     */
+    public function report(Throwable $e)
+    {
+        $this->errorReport($e);
+        parent::report($e);
+    }
+
+    protected function errorReport(Throwable $exception)
+    {
+        if (!$this->shouldntReport($exception) && config('app.env', 'production') == 'production' &&
+            !str_starts_with(trim($exception), 'Symfony\Component\Console\Exception\CommandNotFoundException') &&
+            !str_starts_with(trim($exception), 'Symfony\Component\Console\Exception\NamespaceNotFoundException')) {
+
+            $this->sendTelegramErrorMessage($exception);
+        }
+    }
 
     /**
      * Register the exception handling callbacks for the application.
