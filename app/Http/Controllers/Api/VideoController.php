@@ -21,7 +21,7 @@ class VideoController extends Controller
         }
 
         return $video->broadcasters()
-            ->inRandomOrder()
+            //->inRandomOrder()
             ->paginate(20)
             ->withQueryString()
             ->through(fn($broadcaster) => [

@@ -113,7 +113,7 @@ class Video extends Model implements HasMedia
      */
     public function broadcasters(): BelongsToMany
     {
-        return $this->belongsToMany(Broadcaster::class);
+        return $this->belongsToMany(Broadcaster::class)->orderBy('display_name');
     }
 
     /**
