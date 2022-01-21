@@ -1,0 +1,216 @@
+/*
+|--------------------------------------------------------------------------
+| Pagination
+|--------------------------------------------------------------------------
+*/
+.pagination {
+    @apply mt-12 px-4 flex flex-wrap justify-center max-w-6xl mx-auto;
+
+    a, span {
+        &:hover:not(.disabled):not(.current) {
+            @apply bg-slate-800 text-white;
+        }
+    }
+}
+.modal-pagination {
+    @apply mt-4 px-2 flex flex-wrap justify-center mx-auto;
+
+    a, span {
+        &:hover:not(.disabled):not(.current) {
+            @apply bg-slate-700 text-white;
+        }
+    }
+}
+.pagination, .modal-pagination {
+    a, span {
+        @apply px-2 py-1 border border-gray-800 bg-gray-900 text-center;
+        min-width: 2.125rem;
+
+        &.disabled {
+            @apply text-gray-400;
+        }
+        &.current {
+            @apply font-bold;
+        }
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Scrollbar
+|--------------------------------------------------------------------------
+*/
+.scrollbar-space {
+    @apply pr-2.5;
+}
+@-moz-document url-prefix() {
+    .scrollbar-space {
+        @apply pr-1;
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Spinner
+|--------------------------------------------------------------------------
+*/
+@keyframes spinner-grow {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        opacity: 1;
+        transform: none;
+    }
+}
+
+$spinner-animation-speed: .75s;
+$spinner-size: 5rem;
+.spinner {
+    @apply inline-block bg-current rounded-full mx-auto text-slate-500;
+    width: $spinner-size;
+    height: $spinner-size;
+    vertical-align: -.125em;
+    opacity: 0;
+    animation: $spinner-animation-speed linear infinite spinner-grow;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .spinner {
+        animation-duration: $spinner-animation-speed * 2;
+    }
+}
+
+.spinner-container {
+    @apply animate-pulse p-4;
+    div {
+        @apply rounded-full bg-slate-700 h-20 w-20 mx-auto;
+    }
+}
+
+/*
+|--------------------------------------------------------------------------
+| Buttons
+|--------------------------------------------------------------------------
+*/
+.btn {
+    @apply inline-flex items-center px-2 py-1 text-sm shadow rounded-md text-sky-500 bg-slate-800 hover:bg-slate-700 ring-1 ring-slate-200/20;
+
+    &:disabled {
+        @apply cursor-not-allowed;
+        &:hover {
+            @apply bg-slate-800;
+        }
+    }
+}
+.more-process {
+    @apply flex absolute h-3 w-3 top-0 right-0 -mt-1 -mr-1;
+
+    span {
+        &:first-child {
+            @apply animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75;
+        }
+        &:last-child {
+            @apply relative inline-flex rounded-full h-3 w-3 bg-sky-500;
+        }
+    }
+}
+
+
+/*
+|--------------------------------------------------------------------------
+| Modal
+|--------------------------------------------------------------------------
+*/
+.modal-container {
+    @apply fixed z-10 inset-0 ease-out;
+
+    .modal {
+        @apply flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0;
+    }
+
+    .modal-bg {
+        @apply fixed inset-0 transition-opacity;
+
+        div {
+            @apply absolute inset-0 bg-gray-900 opacity-90 cursor-zoom-out;
+        }
+    }
+
+    .align {
+        @apply hidden sm:inline-block sm:align-middle sm:h-screen;
+    }
+
+    .modal-body {
+        @apply inline-block text-left overflow-hidden transform transition-all align-middle w-full px-4;
+        max-width: 48.5rem;
+        max-height: 90vh;
+
+        .bg {
+            @apply bg-slate-800 border border-violet-800 shadow-lg shadow-violet-800;
+        }
+
+        .head {
+            @apply text-sm flex p-1 sm:p-2;
+
+            .title {
+                @apply grow;
+
+                span {
+                    @apply hidden md:block;
+                }
+            }
+            .close {
+                @apply text-right;
+                i {
+                    @apply text-xl cursor-pointer hover:text-fuchsia-500 mr-1;
+                }
+            }
+        }
+
+        .body {
+            @apply overflow-y-auto max-h-60 flex flex-wrap p-1;
+        }
+
+        .broadcaster {
+            @apply sm:w-2/4 w-full p-1;
+
+            div {
+                @apply flex items-center border border-gray-500 w-full;
+
+                img {
+                    @apply pr-1;
+                }
+
+                a {
+                    @apply flex items-center break-all;
+                }
+            }
+        }
+
+        .video {
+            @apply flex py-1;
+            .img-link {
+                @apply shrink-0 hidden sm:inline-block;
+
+                img {
+                    @apply w-32;
+                }
+            }
+
+            .description {
+                @apply px-2;
+                .desc-link {
+                    @apply text-sm sm:text-base;
+                }
+            }
+        }
+
+        .next {
+            @apply text-center w-full p-2;
+            div {
+                @apply relative inline-flex items-center justify-center;
+            }
+        }
+    }
+}

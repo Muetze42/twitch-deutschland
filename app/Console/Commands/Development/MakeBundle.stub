@@ -1,0 +1,77 @@
+<?php
+
+namespace App\Console\Commands\Development;
+
+use Illuminate\Console\Command;
+use Illuminate\Support\Str;
+
+class MakeBundle extends Command
+{
+    /**
+     * The name and signature of the console command.
+     *
+     * @var string
+     */
+    protected $signature = 'make:bundle {name}';
+
+    /**
+     * The console command description.
+     *
+     * @var string
+     */
+    protected $description = 'Create model, migration, resource, policy and nova resource';
+
+    /**
+     * Execute the console command.
+     *
+     * @return int
+     */
+    public function handle(): int
+    {
+        $name = $this->argument('name');
+        $model = ucfirst(Str::singular($name));
+        $table = Str::snake(Str::pluralStudly(class_basename($name)));
+
+        $this->line(__('Create model: :model', ['model' => $model]));
+        $this->call('make:model', [
+            'name' => $model,
+        ]);
+
+        $this->line(__('Create policy: :model', ['model' => $model]));
+        $this->call('make:policy', [
+            'name'    => sprintf('%sPolicy', $model),
+            '--model' => $model,
+        ]);
+
+        $this->line(__('Create nova resource: :model', ['model' => $model]));
+        $this->call('nova:resource', [
+            'name' => $model,
+        ]);
+
+//        $this->line(__('Create resource: :model', ['model' => $model]));
+//        $this->call('make:resource', [
+//            'name' => $model.'Resource',
+//        ]);
+
+//        $this->line(__('Create controller: :model', ['model' => $model]));
+//        $this->call('make:controller', [
+//            'name' => $model.'Controller',
+//            '--resource' => true,
+//        ]);
+
+//        $this->line(__('Create API controller: :model', ['model' => $model]));
+//        $this->call('make:controller', [
+//            'name'       => 'Api\\'.$model.'Controller',
+////            '--api'      => true,
+////            '--resource' => true,
+//        ]);
+
+        $this->line(__('Create migration: :table', ['table' => $table]));
+        $this->call('make:migration', [
+            'name'     => 'create_'.$table.'_table',
+            '--create' => $table,
+        ]);
+
+        return 0;
+    }
+}

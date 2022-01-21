@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-slate-900 text-white sm:overflow-hidden;
+    background-image: url(/assets/pattern.png);
+}
+
+a {
+    @apply text-blue-400 cursor-pointer;
+    &:hover {
+        @apply text-sky-300;
+    }
+}
+
+h1 {
+    @apply hidden;
+}
+
+main {
+    @apply px-4 pt-4 sm:pb-14 pb-8 sm:overflow-y-auto my-[2.625rem];
+    @media (min-width: 640px) {
+        height: calc(100vh - 84px);
+    }
+
+    &.e404 {
+        @apply bg-no-repeat bg-top;
+        background-image: url('/assets/404.svg');
+    }
+
+    .alert-404 {
+        @apply bg-rose-600 p-4 bg-opacity-40 text-lg font-bold rounded-sm shadow shadow-amber-500 text-center;
+        i {
+            @apply block text-8xl mt-4 text-neutral-700 opacity-30;
+        }
+    }
+}
+
+.content {
+    @apply container mx-auto flex flex-wrap justify-center;
+}
+
+.card {
+    @apply border border-transparent max-w-[18.75rem] p-1 m-4;
+
+    img {
+        &.desktop {
+            @apply lg:brightness-70;
+        }
+    }
+
+    &:hover {
+        @apply border-fuchsia-500 bg-slate-800/20 cursor-pointer shadow shadow-fuchsia-500;
+
+        img {
+            @apply brightness-100;
+        }
+    }
+}
+
+.additional {
+    @apply text-xs text-gray-500;
+}
+
+@import "components";
+@import "navigation";

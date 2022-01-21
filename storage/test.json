@@ -1,0 +1,1712 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "dPl-E_BOKl4C3bDaow-dH2n81Wg",
+    "nextPageToken": "CDIQAA",
+    "regionCode": "DE",
+    "pageInfo": {
+        "totalResults": 108,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "P5qu98JPZ_v59kedoX3pRJdfGUw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UmaaJOgvwck"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-15T13:00:15Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "AUSMISTEN und Baum ausm Fenster werfen #hallo_alexa_",
+                "description": "Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: https://www.instagram.com/hallo_alexa_/ ▻ Mein Cutter: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UmaaJOgvwck/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UmaaJOgvwck/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UmaaJOgvwck/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-15T13:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "22Tpr1xouNRorpwH1QEQzes75ow",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "rAfBRFLmcbc"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-14T15:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "DAS IST SO  NIE PASSIERT @TwitchClipsGermany  | Reaction #hallo_alexa_ Stream Highlight",
+                "description": "Originalvideo: https://www.youtube.com/watch?v=xtMrL_Si28Q ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/rAfBRFLmcbc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/rAfBRFLmcbc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/rAfBRFLmcbc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-14T15:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zMMqL40ZxQK99k45M7RHRuzb7FY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WlU1e3p2kao"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-13T22:10:28Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Russin reaction a Normal Day in Russia | Stream Hightlight #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=RirIutYr1CU ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WlU1e3p2kao/default_live.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WlU1e3p2kao/mqdefault_live.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WlU1e3p2kao/hqdefault_live.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "upcoming",
+                "publishTime": "2022-01-13T22:10:28Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tdQC6FgyBQ_eEcngm9rjstNGGEo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "G38TAYhE9uo"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-10T15:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "💥ALARM ALARM! 💥Feuer im Live Stream | Reaction auf @TwitchClipsGermany Highlight #hallo_alexa_",
+                "description": "Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: https://www.instagram.com/hallo_alexa_/ ▻ Community Discord: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/G38TAYhE9uo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/G38TAYhE9uo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/G38TAYhE9uo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-10T15:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "i_Esg5P3iuYnukQ4dA8ydyhAsQI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mtw99zeDBHg"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-07T11:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Ich Muss bald in die Klappse #hallo_alexa_",
+                "description": "DANKE AN SKURRSPECTRE für das Best of 2021! UND FROHES NEUES ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mtw99zeDBHg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mtw99zeDBHg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mtw99zeDBHg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-07T11:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ohyO1OdFv7BmsHnObmQICroL1cc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kdgJ1AGJxAc"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-02T11:00:12Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Funniest Cats 😹 - Don&#39;t try to hold back Laughter 😂 | Reaction Stream Highlight #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=UU7_gZlL8yA ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kdgJ1AGJxAc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kdgJ1AGJxAc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kdgJ1AGJxAc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-02T11:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ZLZdBap3K1Xqj7p4xrhR7aeNydk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "TKX6Q-p-i6Q"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-31T17:00:12Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "LETZTES VIDEO! LETZTE GRÜSSE VON ALEXA?! Letzter Stream?! Bye bye 😱 #hallo_alexa_",
+                "description": "Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: https://www.instagram.com/hallo_alexa_/ ▻ Community Discord: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/TKX6Q-p-i6Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/TKX6Q-p-i6Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/TKX6Q-p-i6Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-31T17:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hSJQmpwipw23q2Uuvcq9GiYjnI4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_0Ucj4m08Ns"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-30T10:44:35Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "BALD BEI DEUTSCHLAND SUCHT DEN SUPERSTAR! UNCUT Reaction Stream Highlight #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=ziQe5z00mOo&t=445s ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_0Ucj4m08Ns/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_0Ucj4m08Ns/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_0Ucj4m08Ns/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-30T10:44:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "m1iPdck7rMmGQh-2vuFErd9R_C8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JQcpGaSiM7A"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-28T15:00:11Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Julien Bam Wieder ASOZIAL (Part 3) I Stream Highlights Reaction #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=aKJl0Rnqqpg ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JQcpGaSiM7A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JQcpGaSiM7A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JQcpGaSiM7A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-28T15:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lijGqJY9nuvqRH__jz5D_RZ6WBE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9ZN4uliGQIM"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-26T11:00:14Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "FUNNY Pets in Christmas Costumes 🐶 🎅🏻 🐯| Reaction Stream Highlights #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=khR-138IdMU ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9ZN4uliGQIM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9ZN4uliGQIM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9ZN4uliGQIM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-26T11:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "T0pjtsGqBgZDoIvQ1M0fmzqAywI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lFj65w0XXI0"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-24T18:22:40Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "🎄✨🎁 #hallo_alexa_ #twitchclips #twitch #shorts #shortsvideo #shortvideo #heiligabend #weihnachten",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lFj65w0XXI0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lFj65w0XXI0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lFj65w0XXI0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-24T18:22:40Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mWFyc_HeE9zMNReXH_EO1tonzEQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ziQe5z00mOo"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-23T17:05:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "✨ BEST OF  2021 #hallo_alexa_  ✨",
+                "description": "DANKE AN SKURRSPECTRE für das Best of 2021! Ich wünsche euch allen ein gesegnetes Weihnachtsfest 2021 :) ▻ Twitch: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ziQe5z00mOo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ziQe5z00mOo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ziQe5z00mOo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-23T17:05:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "r3Mm2R9hzwxol54tyWKSdAVy_pM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "AcWbeR-Iu8k"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-23T16:01:50Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "ALLEINE AN WEIHNACHTEN???😱#hallo_alexa_",
+                "description": "Community Discord: https://discord.com/invite/fCUT5bF ______ Social Media ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/AcWbeR-Iu8k/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/AcWbeR-Iu8k/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/AcWbeR-Iu8k/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-23T16:01:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "0_qARTD8FFKtDXIrofZM5yYoHP4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "osHXlxuvMTk"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-22T18:32:38Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitch #shorts #memes #shortsvideo #shortvideo #tiktok2021 #tiktok",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/osHXlxuvMTk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/osHXlxuvMTk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/osHXlxuvMTk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-22T18:32:38Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "abzvtZVxxTT5oZjAcST5vDtGAIA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xddEVb2J5yc"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-22T16:52:51Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Okay Daddy | Reaction auf Inscope #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=RvVME7gQ3pE&t=204s ______ Social Media ▻ Twitch: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xddEVb2J5yc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xddEVb2J5yc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xddEVb2J5yc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-22T16:52:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fk181HpytzlQ4VXRnMxMS9B0dPU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "pfprlrsCF6M"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-21T17:00:11Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Creppy Schlafwandler | Reaction Streaming Highlight #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=j3y1UGV2Mls ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/pfprlrsCF6M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/pfprlrsCF6M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/pfprlrsCF6M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-21T17:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hkj4-GTb4f55j9jsA-yzm1rNUzo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "aaXpjcJm3IA"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-20T16:37:36Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Normaler Tag in Russland Reaction auf  Bear Attacks Russian Campers  mit #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=j3y1UGV2Mls ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/aaXpjcJm3IA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/aaXpjcJm3IA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/aaXpjcJm3IA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-20T16:37:36Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "LJusr2pHBcf5o1K2sUUOE-2Vt6Y",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8_5PQeXu3J8"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-19T11:00:16Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "ICH BEICHTE i like bodypainting 🥵🔥on Twitch 😳 | Stream Highlight Reacktion #hallo_alexa_ #hugo",
+                "description": "______ Social Media ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Instagram: https://www.instagram.com/hallo_alexa_/ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8_5PQeXu3J8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8_5PQeXu3J8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8_5PQeXu3J8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-19T11:00:16Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "aCW_vX2VJIdRW3NY0NYqkNWZlDQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "u1uyegAxqD8"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-18T15:00:12Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Schon mal 4rschloch gegessen? | Stream Highlight Reacktion #hallo_alexa_ #twitchClipsGermany",
+                "description": "Original Video: https://www.youtube.com/watch?v=UoV49-oouvk ______ Social Media ▻ Twitch: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/u1uyegAxqD8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/u1uyegAxqD8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/u1uyegAxqD8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-18T15:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "K_fm7NRskczU0KZmHoCOreU9xSU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "cLpZUyMhzUk"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-17T16:56:20Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchclipsgermany #shorts #shortvideo #dog #shortsvideo #hund #dogs",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cLpZUyMhzUk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cLpZUyMhzUk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cLpZUyMhzUk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-17T16:56:20Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qW9OpzGZ19RR-CKQGf8MzoIatWM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JT_uPp6Kz10"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-17T15:30:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Julien Bam Wieder ASOZIAL (Part 2) I Stream Highlights Reaction #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=H1p9k2rj-8U&t=3s ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JT_uPp6Kz10/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JT_uPp6Kz10/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JT_uPp6Kz10/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-17T15:30:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "M2s6SuYkMR28QOhbYmlSaHBaC5k",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "zQyhv40gqc0"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-16T15:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Julien Bam einfach ASOZIAL (Part 1) I Stream Highlights Reaction #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=j3y1UGV2Mls ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/zQyhv40gqc0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/zQyhv40gqc0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/zQyhv40gqc0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-16T15:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tg4JlnKaMfpB-qC7npEn6HujWA8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ijEQ-kTL5SY"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-16T14:19:00Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Angsthase 😂 #hallo_alexa_ #twitchclips #twitchclipsgermany #shorts #shortsvideo #shortvideos",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ijEQ-kTL5SY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ijEQ-kTL5SY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ijEQ-kTL5SY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-16T14:19:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "axLqwxMNojT8uCtxP5BaMV3JEVQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "H5GcmvSnWQA"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-15T17:37:22Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#clickbait #hallo_alexa_ #twitchclips #twitchclipsgermany #twitchtv #twitchtv #shorts #shortvideo",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/H5GcmvSnWQA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/H5GcmvSnWQA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/H5GcmvSnWQA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-15T17:37:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Et9SDCNPLioNv5qgUY-kmsi6pgU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SQ5ELDGvKis"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-15T15:00:15Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Schildkröte im Kühlschrank | Streaming Highlight Reaction #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=j3y1UGV2Mls ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SQ5ELDGvKis/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SQ5ELDGvKis/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SQ5ELDGvKis/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-15T15:00:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "3Cwg0LOA1Ki_dWbwEnu5E15v-kk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ssa8fxxcntg"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-14T18:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Flirten mit dem Grinch &amp; wichtige Tipps fürs Leben | Streaming Highlight Reaction #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=wqIByZ6b8Vk ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ssa8fxxcntg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ssa8fxxcntg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ssa8fxxcntg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-14T18:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "CVuVhWFNFAlJYH7S2iTYVk91LVY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "8McE0fhi7MA"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-13T15:00:12Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Kurzer Real Talk UNCUT | Stream Highlight #hallo_alexa_",
+                "description": "Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/hallo_alexa_ ______ Social Media ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/8McE0fhi7MA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/8McE0fhi7MA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/8McE0fhi7MA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-13T15:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gYSV1Pb37fuqnuA33MRK_MY0wbk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2ui6xY0Yl1c"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-12T11:00:14Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Kurzer Real Talk UNCUT | Stream Highlight #hallo_alexa_",
+                "description": "Broadcasted live on Twitch -- Watch live at https://www.twitch.tv/hallo_alexa_ ______ Social Media ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2ui6xY0Yl1c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2ui6xY0Yl1c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2ui6xY0Yl1c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-12T11:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nn2FhvC_ZFgNbw7MjuUQV7k9nG0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hTCINkPg6rM"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-11T11:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Schaut bei meinem OF vorbei | Reaction Streamiing Highlight #hallo_alexa_",
+                "description": "Original Video: https://www.youtube.com/watch?v=J-1HKE1xyDg&t=183s ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hTCINkPg6rM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hTCINkPg6rM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hTCINkPg6rM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-11T11:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2aad-EublGo55rFsub7bMxC_P3c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "J2Cd2dUZ_F8"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-10T15:00:14Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "UnCut Teil 2 | Reaktion auf den Bremen Vlog #hallo_alexa_",
+                "description": "Original Video: https://youtu.be/SgHjAduvPlE DANKE AN ALLE FÜR DAS NICE WOCHENENDE Besonderer Dank an dieser ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/J2Cd2dUZ_F8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/J2Cd2dUZ_F8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/J2Cd2dUZ_F8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-10T15:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xAPWBraqKIGZBwRyPMqA3q_1R6c",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2XFftJWUtr0"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-09T15:00:09Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "UnCut Teil 1 | Reaktion auf den Bremen Vlog #hallo_alexa_",
+                "description": "Original Video: https://youtu.be/SgHjAduvPlE DANKE AN ALLE FÜR DAS NICE WOCHENENDE Besonderer Dank an dieser ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2XFftJWUtr0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2XFftJWUtr0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2XFftJWUtr0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-09T15:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "bsTTpMJgTzc2Rafha3t23Z4Et1Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fsCCwS_emQY"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-08T20:02:52Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Insta: hallo_alexa_ 👌✨#hallo_alexa_ #instagram #insta #shorts #shortsvideo #shortvideo #tiktok2021",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fsCCwS_emQY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fsCCwS_emQY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fsCCwS_emQY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-08T20:02:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SYYbJE2_-K4qVtGi4qd0JrRLecM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GL9MdEd9QH8"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-08T17:17:42Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchtv #shorts #shortsvideo #shortvideo #elgato #unboxing #twitch",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GL9MdEd9QH8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GL9MdEd9QH8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GL9MdEd9QH8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-08T17:17:42Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "di4Drq1ZA5bAiOLwpkiebeISilg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JTSlVe7p15Q"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-08T16:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Zuschauer PAKET LIVE ÖFFNEN zu #Weihnachten | Highlight Stream #hallo_alexa_",
+                "description": "Willkommen! An heilig Abend kommt das ERSTE Best of und wir reacten gemeinsamen auf Twitch (24.12.2021 um 12 Uhr) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JTSlVe7p15Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JTSlVe7p15Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JTSlVe7p15Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-08T16:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gVGXs_Op9vJ_JNN53QFvkpDb5SU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YD5cwuHQ4Zs"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-07T21:23:41Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchclipsgermany #twitchtv #shorts #shortsvideo #shortvideo #twitch",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YD5cwuHQ4Zs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YD5cwuHQ4Zs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YD5cwuHQ4Zs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-07T21:23:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "2z-k7cJatNIyS3Q6SgBPJQN85Aw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ruLA8fiz0Xg"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-07T16:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Mama Anrufen LIVE on Twitch Stream | Highlight #hallo_alexa_",
+                "description": "Willkommen! An heilig Abend kommt das ERSTE Best of und wir reacten gemeinsamen auf Twitch (24.12.2021 um 12 Uhr) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ruLA8fiz0Xg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ruLA8fiz0Xg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ruLA8fiz0Xg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-07T16:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Zq6Cm0kPO0UKAoIt3AsNcR2n1IM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "KyPw5VaSIzM"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-06T19:00:12Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Zuschauer PAKET LIVE ÖFFNEN zu #Weihnachten | Highlight Stream #hallo_alexa_",
+                "description": "Willkommen! An heilig Abend kommt das ERSTE Best of und wir reacten gemeinsamen auf Twitch (24.12.2021 um 12 Uhr) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/KyPw5VaSIzM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/KyPw5VaSIzM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/KyPw5VaSIzM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-06T19:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "FTLwzMSi5Zhm-Hh4PfYqPGTBw_o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NFfq96KWH90"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-05T13:40:02Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchclipsgermany #twitchtv #twitch #twitchstreamer #memes #samstag",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NFfq96KWH90/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NFfq96KWH90/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NFfq96KWH90/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-05T13:40:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "O7NfJibuoRASJfFwnmq2YGoMiZM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "SgHjAduvPlE"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-05T11:00:09Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "🍻 Communitytreff Zockerbiene88 🍻| Bremen Vlog von #hallo_alexa_",
+                "description": "Bar Pummelfee https://www.twitch.tv/pummelfee86 Mara | @Zockerbiene88 https://www.twitch.tv/zockerbiene88 Odin ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/SgHjAduvPlE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/SgHjAduvPlE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/SgHjAduvPlE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-05T11:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "iuSSL_cSjUKwpQzMiS_J8Lz64yI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "br2XpwYWMpU"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-04T15:00:13Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "🦠 Weihnachten wieder im Lockdown 🥺 Kurze Worte an euch #hallo_alexa_ #lockdown",
+                "description": "______ Social Media ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Instagram: https://www.instagram.com/hallo_alexa_/ ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/br2XpwYWMpU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/br2XpwYWMpU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/br2XpwYWMpU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-04T15:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ip-mk5eqUPWHiOmWX2EI57pCvlY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GXX5tr_E76U"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-03T17:09:21Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchclipsgermany  #twitch #twitchstreamer #shorts #shortsvideo",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GXX5tr_E76U/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GXX5tr_E76U/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GXX5tr_E76U/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-03T17:09:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "-qJYyMZJmlBnj15aLC1TdPBhtK8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kuJPcOFj3gk"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-03T16:20:47Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "ERSTES MAL 🍷 Glühwein selber machen = Stream Eskaltion!!! #hallo_alexa_ #DIY",
+                "description": "Morgen ab 10 Uhr LIVE STREAM mit Glühwein, Maskenmann und Weihnachtsbächerei :D Uncut Video dazu ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kuJPcOFj3gk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kuJPcOFj3gk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kuJPcOFj3gk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-03T16:20:47Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Y2qFpIxWLvHpUF09lYAWIJIU9m0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "K3nP5DJsgvA"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-02T23:33:57Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchclipsgermany #twitchtv #unboxing #shorts #shortsvideo #shortvideo",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/K3nP5DJsgvA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/K3nP5DJsgvA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/K3nP5DJsgvA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-02T23:33:57Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "T7CB780ghm5KTyGmF_6wUMg3FP4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "FunrZN9zu1Q"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-02T15:00:12Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Zuschauer PAKET LIVE ÖFFNEN zu #Weihnachten | Highlight Stream #hallo_alexa_",
+                "description": "Social Media ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Instagram: https://www.instagram.com/hallo_alexa_/ ▻ Community ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/FunrZN9zu1Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/FunrZN9zu1Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/FunrZN9zu1Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-02T15:00:12Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NX-P3b3iFXdbXaPo4C70RQaG4NY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mHh0MlGUFUs"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-01T16:18:55Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #twitchclips #twitchclipsgermany #twitchtv #twitch #shorts #shortsvideo #shortsvideos",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mHh0MlGUFUs/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mHh0MlGUFUs/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mHh0MlGUFUs/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-01T16:18:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tHLOQBc1epnF-4X3akN7QCI45wQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GgKmwFhL06s"
+            },
+            "snippet": {
+                "publishedAt": "2021-12-01T15:00:11Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Zuschauer PAKET LIVE ÖFFNEN zu #Weihnachten | Highlight Stream #hallo_alexa_",
+                "description": "Willkommen! An heilig Abend kommt das ERSTE Best of und wir reacten gemeinsamen auf Twitch (24.12.2021 um 12 Uhr) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GgKmwFhL06s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GgKmwFhL06s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GgKmwFhL06s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-12-01T15:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "vcpGtm7bkPJ2i_5WB_fzCGWrm44",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "alsIxEjTq94"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-30T16:49:19Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Abonniert für Teil2 ❄️ #hallo_alexa_ #shorts #shortvideo #youtubeshort #winterspecial #twitchtv",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/alsIxEjTq94/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/alsIxEjTq94/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/alsIxEjTq94/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-30T16:49:19Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "atpiCAISyrVREd67ftbqGhrTdSU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MvrjNEbayuY"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-29T19:49:30Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "#hallo_alexa_ #hardbass #party #russian #twitchclips #twitchclipsgermany #twitch #twitchstreamer",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MvrjNEbayuY/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MvrjNEbayuY/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MvrjNEbayuY/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-29T19:49:30Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "nG0oSPId2VpLSlfr1RDspsr2PPw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "EHBSyCDllIU"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-28T11:50:45Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Stell dir vor ich reacte auf Inscope ZITTER NICHT #hallo_alexa_",
+                "description": "Originalvideo: https://www.youtube.com/watch?v=C0wsRZ0Cbsk ▻ Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/EHBSyCDllIU/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/EHBSyCDllIU/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/EHBSyCDllIU/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-28T11:50:45Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cCC98fr9V_t00lZbgaMVFrusMTc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Byzn3kGX5kk"
+            },
+            "snippet": {
+                "publishedAt": "2021-11-25T23:00:15Z",
+                "channelId": "UCetTw1t8fMGzWeYo1_X3vqQ",
+                "title": "Mit Moral kannst du keine Rechnungen zahlen 😓 Reaction auf #twitchclipsgermany",
+                "description": "Twitch: https://www.twitch.tv/hallo_alexa_ ▻ Insta: https://www.instagram.com/hallo_alexa_/ ▻ Original Video: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Byzn3kGX5kk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Byzn3kGX5kk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Byzn3kGX5kk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "hallo_alexa_",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-11-25T23:00:15Z"
+            }
+        }
+    ]
+}

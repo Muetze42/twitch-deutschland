@@ -1,0 +1,59 @@
+header {
+    @apply bg-gray-900 border-b-2 border-gray-700 fixed top-0 left-0 w-full flex justify-between sm:px-2;
+
+    nav {
+        @apply flex;
+    }
+    a {
+        @apply p-2 border-l border-r border-gray-800 text-slate-400;
+
+        &.active {
+            @apply text-white cursor-default;
+        }
+        &:hover:not(.active) {
+            @apply bg-slate-800 text-white;
+        }
+    }
+    #search {
+        @apply p-2 sm:border-l sm:border-r sm:border-gray-800 text-slate-400 text-sm w-48 max-w-[12rem];
+
+        input {
+            @apply text-gray-900 placeholder-slate-400 px-2 bg-white border focus:ring-1 focus:outline-none focus:border-fuchsia-500 focus:ring-fuchsia-500 rounded-sm;
+        }
+    }
+}
+
+footer {
+    @apply text-sm sm:fixed bottom-0 left-0 bg-slate-900 border-t-2 border-gray-800 sm:pr-2 pl-2 w-full flex;
+
+    .author {
+        @apply grow flex items-center;
+        a {
+            @apply block xs:inline;
+        }
+    }
+    .more {
+        @apply flex items-center;
+
+        a {
+            @apply px-2 border-l border-r border-gray-800 text-slate-400 flex h-full items-center;
+
+            &:hover {
+                @apply bg-slate-800 text-white;
+            }
+            i {
+                @apply mr-1;
+            }
+        }
+    }
+
+    .netcup {
+        @apply max-h-10 hover:bg-slate-800 inline-table px-2 border-0;
+
+        &:hover {
+            img {
+                @apply brightness-200;
+            }
+        }
+    }
+}
