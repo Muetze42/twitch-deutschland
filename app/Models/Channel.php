@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
 
@@ -41,6 +42,7 @@ use Illuminate\Support\Carbon;
  * @mixin Eloquent
  * @property bool $idle
  * @method static Builder|Channel whereIdle($value)
+ * @property-read \App\Models\Video|null $latestVideo
  */
 class Channel extends Model
 {
@@ -74,6 +76,11 @@ class Channel extends Model
     public function videos(): HasMany
     {
         return $this->hasMany(Video::class);
+    }
+
+    public function latestVideo(): HasOne
+    {
+        return $this->hasOne(Video::class)->orderByDesc('published_at');
     }
 
     /**

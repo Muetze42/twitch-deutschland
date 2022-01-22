@@ -2,22 +2,22 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Models\Broadcaster;
+use App\Models\Channel;
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Http\Request;
 
-class BroadcasterController extends Controller
+class ChannelController extends Controller
 {
     /**
-     * @param Broadcaster $broadcaster
+     * @param Channel $channel
      * @param Request $request
      * @return LengthAwarePaginator
      */
-    public function show(Broadcaster $broadcaster, Request $request): LengthAwarePaginator
+    public function show(Channel $channel, Request $request): LengthAwarePaginator
     {
         $this->validateRequest($request);
 
-        return $broadcaster->videos()
+        return $channel->videos()
             ->paginate(15)
             ->withQueryString()
             ->through(fn($video) => [

@@ -50,9 +50,13 @@ footer {
     .netcup {
         @apply max-h-10 hover:bg-slate-800 inline-table px-2 border-0;
 
+        img {
+            @apply max-h-8;
+        }
+
         @media (max-width: 768px) {
             img {
-                @apply max-h-8 brightness-125;
+                @apply  brightness-125;
             }
         }
 

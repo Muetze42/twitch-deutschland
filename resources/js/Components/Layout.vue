@@ -3,8 +3,9 @@
         <nav>
             <Link href="/" :class="{ 'active': $page.url.split('?')[0] === '/' }">Videos</Link>
             <Link href="/streams" :class="{ 'active': $page.url.split('?')[0] === '/streams' }">Streams</Link>
+            <Link class="lazy-developer" href="/channels" :class="{ 'active': $page.url.split('?')[0] === '/channels' }">Channels</Link>
         </nav>
-        <div id="search"></div>
+        <div id="search-top"></div>
     </header>
     <slot/>
     <footer>
