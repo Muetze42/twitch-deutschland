@@ -25,7 +25,7 @@
                         <div class="title">
                             <span>
                                 <a :href="'https://www.youtube.com/channel/'+channelId" rel="noopener" target="_blank">
-                                    {{ name }} auf <i class="fab fa-youtube"></i>YouTube
+                                    {{ name }} auf <i class="fab fa-youtube fa-fw"></i>YouTube
                                 </a>
                             </span>
                         </div>
@@ -52,7 +52,7 @@
                                     {{ video.title }}
                                 </span>
                                 <div class="additional">
-                                    {{ video.channel }}, {{ video.published }}
+                                    {{ video.published }}
                                 </div>
                             </div>
                         </div>
