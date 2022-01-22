@@ -52,7 +52,7 @@
 	ExpiresByType text/javascript						"access 1 year"
 
 # Manifest files
-	ExpiresByType application/manifest+json				"access 1 week"
+	ExpiresByType application/manifest+json				"access 0 seconds"
 	ExpiresByType application/x-web-app-manifest+json	"access 0 seconds"
 	ExpiresByType text/cache-manifest					"access 0 seconds"
 

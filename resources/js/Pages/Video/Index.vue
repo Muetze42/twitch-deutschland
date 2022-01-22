@@ -93,6 +93,7 @@ export default {
             broadcasters: {},
             nextLink: null,
             loadMoreProcess: false,
+            seed: null
         }
     },
     components: {
@@ -108,8 +109,9 @@ export default {
             axios.post('/api/video/'+video, {
                 hash: this.$page.props.agent,
             }).then(response => {
-                this.broadcasters = response.data.data
-                this.nextLink = response.data.next_page_url
+                this.broadcasters = response.data.broadcasters.data
+                this.nextLink = response.data.broadcasters.next_page_url
+                this.seed = response.data.seed
             }).catch(error => {
                 alert(error)
             })
@@ -118,9 +120,10 @@ export default {
             this.loadMoreProcess = true
             axios.post(this.nextLink, {
                 hash: this.$page.props.agent,
+                seed: this.seed
             }).then(response => {
-                this.broadcasters = this.broadcasters.concat(response.data.data)
-                this.nextLink = response.data.next_page_url
+                this.broadcasters = this.broadcasters.concat(response.data.broadcasters.data)
+                this.nextLink = response.data.broadcasters.next_page_url
                 this.loadMoreProcess = false
             }).catch(error => {
                 alert(error)
