@@ -2,7 +2,10 @@
 
 namespace App\Http\Middleware;
 
+use App\Models\Broadcaster;
+use App\Models\Channel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Route;
 use Inertia\Middleware;
 use Browser;
 use Exception;
@@ -44,8 +47,24 @@ class HandleInertiaRequests extends Middleware
             $browser = 'mobile';
         }
 
+        $route = Route::currentRouteName();
+        $pageTitle = ucfirst(explode('.', $route)[0]).' « '.config('app.name');
+        view()->share('pageTitle', $pageTitle);
+
+        $pageRobots = 'noindex,nofollow';
+        $metaDescriptions = [
+            'videos.index' => lastAnd(implode(', ', array_map(function ($channel) { return '„'.$channel.'“'; }, Channel::all()->pluck('name')->toArray()))). 'Clips Compilations',
+            'streams.index' => 'Finde Twitch Clips Compilations von '
+                .lastAnd(implode(', ', array_map(function ($broadcaster) { return '„'.$broadcaster.'“'; }, Broadcaster::whereHas('videos')->ordered()->limit(6)->get()->pluck('display_name')->toArray()))).' & vielen anderen',
+        ];
+        if (!empty($metaDescriptions[$route])) {
+            $pageRobots = 'index,follow';
+            view()->share('metaDescription', $metaDescriptions[$route]);
+        }
+        view()->share('pageRobots', $pageRobots);
+
         return array_merge(parent::share($request), [
-            'appName'    => config('app.name'),
+            'pageTitle'  => $pageTitle,
             'device'     => $browser,
             'agent'      => md5($request->userAgent()),
             'csrf_token' => csrf_token(),

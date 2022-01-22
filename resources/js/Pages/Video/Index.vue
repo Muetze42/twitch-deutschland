@@ -2,7 +2,6 @@
     <teleport to="#search">
         <input v-model="search" type="search" placeholder="Suche...">
     </teleport>
-    <Head :title="'Videos « '+$page.props.appName" />
     <h1>Videos</h1>
     <main :class="{ 'e404': !videos.data.length }" class="scrollbar scrollbar-thumb-fuchsia-900 scrollbar-track-slate-600 hover:scrollbar-thumb-fuchsia-800">
         <div class="content">

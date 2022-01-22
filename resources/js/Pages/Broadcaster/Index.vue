@@ -1,9 +1,8 @@
 <template>
-    <Head :title="'Broadcasters « '+$page.props.appName" />
-    <h1>Broadcasters</h1>
     <teleport to="#search">
         <input v-model="search" type="search" placeholder="Suche...">
     </teleport>
+    <h1>Streams</h1>
     <main :class="{ 'e404': !broadcasters.data.length }" class="scrollbar scrollbar-thumb-fuchsia-900 scrollbar-track-slate-600 hover:scrollbar-thumb-fuchsia-800">
         <div class="content">
             <div v-for="broadcaster in broadcasters.data" class="card" v-if="broadcasters.data.length" @click="show(broadcaster.id, broadcaster.name, broadcaster.first)">

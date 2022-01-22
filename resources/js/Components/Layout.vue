@@ -33,11 +33,14 @@ import { Link } from '@inertiajs/inertia-vue3'
 
 export default {
     props: {
-        siteTitle: String,
+        pageTitle: String,
         device: String,
     },
     components: {
         Link,
+    },
+    updated() {
+        document.title = this.pageTitle
     },
 }
 </script>
