@@ -96,7 +96,7 @@ $spinner-size: 5rem;
 .btn {
     @apply inline-flex items-center px-2 py-1 text-sm shadow rounded-md text-sky-500 bg-slate-800 hover:bg-slate-700 ring-1 ring-slate-200/20;
 
-    &:disabled {
+    &:disabled, &.disabled {
         @apply cursor-not-allowed;
         &:hover {
             @apply bg-slate-800;

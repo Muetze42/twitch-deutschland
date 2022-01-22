@@ -62,7 +62,10 @@
                         </div>
                         <div v-if="nextLink" class="next">
                             <div>
-                                <button type="button" class="btn" @click="loadMore()" :disabled="loadMoreProcess">
+                                <span class="btn disabled" v-if="loadMoreProcess">
+                                    Mehr anzeigen
+                                </span>
+                                <button v-else type="button" class="btn" @click="loadMore()">
                                     Mehr anzeigen
                                 </button>
                                 <span v-if="loadMoreProcess" class="more-process">
