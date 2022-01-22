@@ -12,7 +12,7 @@
                 </div>
                 {{ video.title }}
                 <div class="additional">
-                    {{ video.channel }}
+                    {{ video.channel }}, {{ video.published }}
                 </div>
             </div>
             <NotFound v-else />
