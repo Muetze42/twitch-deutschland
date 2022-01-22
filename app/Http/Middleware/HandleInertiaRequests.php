@@ -53,7 +53,7 @@ class HandleInertiaRequests extends Middleware
 
         $pageRobots = 'noindex,nofollow';
         $metaDescriptions = [
-            'videos.index' => lastAnd(implode(', ', array_map(function ($channel) { return '„'.$channel.'“'; }, Channel::all()->pluck('name')->toArray()))). 'Clips Compilations',
+            'videos.index' => lastAnd(implode(', ', array_map(function ($channel) { return '„'.$channel.'“'; }, Channel::all()->pluck('name')->toArray()))). ' Clips Compilations',
             'streams.index' => 'Finde Twitch Clips Compilations von '
                 .lastAnd(implode(', ', array_map(function ($broadcaster) { return '„'.$broadcaster.'“'; }, Broadcaster::whereHas('videos')->ordered()->limit(6)->get()->pluck('display_name')->toArray()))).' & vielen anderen',
         ];
