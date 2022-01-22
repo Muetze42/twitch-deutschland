@@ -29,7 +29,7 @@ class BroadcasterController extends Controller
                 'id'    => $broadcaster->id,
                 'first' => $broadcaster->videos()->first() ? $broadcaster->videos()->first()->youtube_id : null,
                 'name'  => e($broadcaster->display_name),
-                'logo'  => $broadcaster->logo,
+                'logo'  => $broadcaster->getFirstMediaUrl('logo'),
                 'count' => number_format($broadcaster->video_count, 0, ',', '.'),
             ]);
 
