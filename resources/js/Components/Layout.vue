@@ -1,8 +1,8 @@
 <template>
     <header>
         <nav>
-            <Link href="/" :class="{ 'active': $page.url === '/' }">Videos</Link>
-            <Link href="/streams" :class="{ 'active': $page.url === '/streams' }">Streams</Link>
+            <Link href="/" :class="{ 'active': $page.url.split('?')[0] === '/' }">Videos</Link>
+            <Link href="/streams" :class="{ 'active': $page.url.split('?')[0] === '/streams' }">Streams</Link>
         </nav>
         <div id="search"></div>
     </header>

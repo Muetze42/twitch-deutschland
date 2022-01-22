@@ -32,8 +32,8 @@ class VideoController extends Controller
                 'title'      => $video->title,
                 'youtube_id' => $video->youtube_id,
                 'channel'    => $video->channel->name,
-                'published'  => $video->published_at->format('d.m.Y H:i'),
-                'image'      => $video->getFirstMediaUrl('thumb', 'public')
+                'published'  => $video->published_at->format('d.m.Y H:i:s'),
+                'image'      => $video->getFirstMediaUrl('thumb', 'public'),
             ]);
 
         return Inertia::render('Video/Index', [

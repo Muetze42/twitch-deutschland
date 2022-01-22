@@ -57,7 +57,7 @@
                                     {{ video.title }}
                                 </span>
                                 <div class="additional">
-                                    {{ video.channel }}
+                                    {{ video.channel }}, {{ video.published }}
                                 </div>
                             </div>
                         </div>
