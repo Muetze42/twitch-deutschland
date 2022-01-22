@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\BroadcasterController;
+use App\Http\Controllers\ChannelController;
 use App\Http\Controllers\VideoController;
 use App\Http\Middleware\HandleInertiaRequests;
 use Illuminate\Support\Facades\Route;
@@ -22,6 +23,8 @@ Route::middleware([HandleInertiaRequests::class])->group(function () {
 
     Route::get('/streams', [BroadcasterController::class, 'index'])->name('streams.index');
     Route::post('/streams', [BroadcasterController::class, 'index']);
+
+    Route::get('/channels', [ChannelController::class, 'index'])->name('channels.index');
 });
 
 Route::get('auth/{provider}', [AuthController::class, 'redirect'])

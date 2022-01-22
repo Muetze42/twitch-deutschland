@@ -154,8 +154,7 @@ $spinner-size: 5rem;
             @apply text-sm flex p-1 sm:p-2;
 
             .title {
-                @apply grow;
-
+                @apply grow self-center;
                 span {
                     @apply hidden md:block;
                 }

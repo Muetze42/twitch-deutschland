@@ -1,22 +1,17 @@
 <template>
-    <teleport to="#search-top">
-        <div id="search">
-            <input v-model="search" type="search" placeholder="Suche...">
-        </div>
-    </teleport>
-    <h1>Streams</h1>
-    <main :class="{ 'e404': !broadcasters.data.length }" class="scrollbar scrollbar-thumb-fuchsia-900 scrollbar-track-slate-600 hover:scrollbar-thumb-fuchsia-800">
-        <div class="content">
-            <div v-for="broadcaster in broadcasters.data" class="card" v-if="broadcasters.data.length" @click="show(broadcaster.id, broadcaster.name, broadcaster.first)">
-                <img :src="broadcaster.logo" :alt="broadcaster.name" :class="$page.props.device" width="300" height="300">
-                {{ broadcaster.name }}
+    <h1>Channels</h1>
+    <main class="scrollbar scrollbar-thumb-fuchsia-900 scrollbar-track-slate-600 hover:scrollbar-thumb-fuchsia-800">
+        <div class="channels">
+            <div v-for="channel in channels" class="channel" @click="show(channel.id, channel.latest, channel.name, channel.youtube_id)">
+                {{ channel.name }}
                 <div class="additional">
-                    {{ broadcaster.count }} Videos
+                    {{ channel.count }} {{ channel.count === '1' ? 'Video' : 'Videos' }},
+                </div>
+                <div class="additional">
+                    Letzte Video: {{ channel.published }}
                 </div>
             </div>
-            <NotFound v-else />
         </div>
-        <Pagination :links="broadcasters.links" />
     </main>
     <div class="modal-container" v-if="isOpen">
         <div class="modal">
@@ -29,9 +24,8 @@
                     <div class="head">
                         <div class="title">
                             <span>
-                                <a :href="'https://www.twitch.tv/'+name.toLowerCase()" target="_blank" rel="noopener">
-                                    <i class="fab fa-twitch fa-fw"></i>
-                                    {{ name }}
+                                <a :href="'https://www.youtube.com/channel/'+channelId" rel="noopener" target="_blank">
+                                    {{ name }} auf <i class="fab fa-youtube"></i>YouTube
                                 </a>
                             </span>
                         </div>
@@ -87,38 +81,28 @@
 </template>
 
 <script>
-import { Inertia } from '@inertiajs/inertia';
-import Pagination from './../../Components/Pagination';
-import NotFound from './../../Components/NotFound';
-import debounce from "lodash/debounce";
-
 export default {
     props: {
-        broadcasters: Object,
-        filters: Object,
-        device: String,
-        search: String,
+        channels: Object
     },
     data() {
         return {
             isOpen: false,
             name: '',
             youTubeId: '',
+            channelId: '',
             videos: {},
             nextLink: null,
             loadMoreProcess: false,
         }
     },
-    components: {
-        Pagination,
-        NotFound,
-    },
     methods: {
-        show(broadcaster, name, youTubeId) {
+        show(channel, youTubeId, name, channelId) {
             this.name = name
             this.youTubeId = youTubeId
+            this.channelId = channelId
             this.videos = {}
-            axios.post('/api/broadcaster/'+broadcaster, {
+            axios.post('/api/channel/'+channel, {
                 hash: this.$page.props.agent,
             }).then(response => {
                 this.videos = response.data.data
@@ -146,14 +130,6 @@ export default {
         close() {
             this.isOpen = false
         },
-    },
-    watch: {
-        search: debounce(function () {
-            Inertia.post('/streams', {
-                search: this.search,
-                _token: this.$page.props.csrf_token,
-            }, { preserveState: true, replace: true });
-        }, 300)
     }
 }
 </script>

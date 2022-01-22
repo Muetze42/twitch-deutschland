@@ -20,7 +20,7 @@ h1 {
 
 main {
     @apply px-4 pt-4 sm:pb-14 pb-8 sm:overflow-y-auto my-[2.625rem];
-    min-height: calc(100vh - 128px);
+    min-height: calc(100vh - 116px);
     @media (min-width: 640px) {
         height: calc(100vh - 76px);
     }
@@ -62,6 +62,21 @@ main {
 
 .additional {
     @apply text-xs text-gray-500;
+}
+
+.channels {
+    @apply px-4;
+    .channel {
+        @apply max-w-xs mx-auto text-center p-2 border border-transparent text-lg font-bold;
+
+        &:hover {
+            @apply border-fuchsia-500 bg-slate-800/20 cursor-pointer shadow shadow-fuchsia-500;
+        }
+    }
+}
+
+.lazy-developer {
+    @apply hidden xs:inline-block;
 }
 
 @import "components";

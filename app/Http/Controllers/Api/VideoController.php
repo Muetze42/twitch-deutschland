@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Http\Controllers\Controller;
 use App\Models\Video;
 use Illuminate\Http\Request;
 
@@ -15,9 +14,7 @@ class VideoController extends Controller
      */
     public function show(Video $video, Request $request): array
     {
-        if ($request->header('X-Requested-With') != 'XMLHttpRequest' || $request->input('hash') != md5($request->userAgent())) {
-            abort(405);
-        }
+        $this->validateRequest($request);
 
         $broadcasters = $video->broadcasters();
         $seed = $this->getSeed($request, $broadcasters);

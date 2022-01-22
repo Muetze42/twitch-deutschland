@@ -1,6 +1,8 @@
 <template>
-    <teleport to="#search">
-        <input v-model="search" type="search" placeholder="Suche...">
+    <teleport to="#search-top">
+        <div id="search">
+            <input v-model="search" type="search" placeholder="Suche...">
+        </div>
     </teleport>
     <h1>Videos</h1>
     <main :class="{ 'e404': !videos.data.length }" class="scrollbar scrollbar-thumb-fuchsia-900 scrollbar-track-slate-600 hover:scrollbar-thumb-fuchsia-800">
