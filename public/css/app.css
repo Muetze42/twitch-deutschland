@@ -1181,7 +1181,6 @@ header a {
   color: rgb(148 163 184 / var(--tw-text-opacity));
 }
 header a.active {
-  cursor: default;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
