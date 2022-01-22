@@ -3062,12 +3062,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Muetze42/youtube-scraper.git",
-                "reference": "64a66547e49fa4cd2fed9fe5958db5c48f7a1db7"
+                "reference": "a804dccfee77f1ddd9377191e12d5f6158c44808"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Muetze42/youtube-scraper/zipball/64a66547e49fa4cd2fed9fe5958db5c48f7a1db7",
-                "reference": "64a66547e49fa4cd2fed9fe5958db5c48f7a1db7",
+                "url": "https://api.github.com/repos/Muetze42/youtube-scraper/zipball/a804dccfee77f1ddd9377191e12d5f6158c44808",
+                "reference": "a804dccfee77f1ddd9377191e12d5f6158c44808",
                 "shasum": ""
             },
             "require": {
@@ -3099,7 +3099,7 @@
                 "source": "https://github.com/Muetze42/youtube-scraper/tree/main",
                 "issues": "https://github.com/Muetze42/youtube-scraper/issues"
             },
-            "time": "2022-01-21T21:45:05+00:00"
+            "time": "2022-01-22T12:32:58+00:00"
         },
         {
             "name": "opis/closure",
