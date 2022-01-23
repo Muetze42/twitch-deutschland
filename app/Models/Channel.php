@@ -8,6 +8,7 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Database\Eloquent\Relations\HasManyThrough;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Carbon;
@@ -22,7 +23,7 @@ use Illuminate\Support\Carbon;
  * @property Carbon|null $created_at
  * @property Carbon|null $updated_at
  * @property Carbon|null $deleted_at
- * @property-read Collection|\App\Models\Video[] $videos
+ * @property-read Collection|Video[] $videos
  * @property-read int|null $videos_count
  * @method static Builder|Channel newModelQuery()
  * @method static Builder|Channel newQuery()
@@ -42,7 +43,9 @@ use Illuminate\Support\Carbon;
  * @mixin Eloquent
  * @property bool $idle
  * @method static Builder|Channel whereIdle($value)
- * @property-read \App\Models\Video|null $latestVideo
+ * @property-read Video|null $latestVideo
+ * @property-read Collection|\App\Models\Broadcaster[] $broadcasters
+ * @property-read int|null $broadcasters_count
  */
 class Channel extends Model
 {
@@ -78,6 +81,11 @@ class Channel extends Model
         return $this->hasMany(Video::class);
     }
 
+    /**
+     * Get the latest video for the channel
+     *
+     * @return HasOne
+     */
     public function latestVideo(): HasOne
     {
         return $this->hasOne(Video::class)->orderByDesc('published_at');

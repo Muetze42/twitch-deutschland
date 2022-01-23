@@ -152,9 +152,8 @@ export default {
     },
     watch: {
         search: debounce(function () {
-            Inertia.post('/streams', {
+            Inertia.get('/streams', {
                 search: this.search,
-                _token: this.$page.props.csrf_token,
             }, { preserveState: true, replace: true });
         }, 300)
     }

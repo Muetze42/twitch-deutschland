@@ -20,14 +20,15 @@ class ChannelController extends Controller
         $channels = Channel::with('latestVideo')
             ->get()
             ->sortByDesc('latestVideo.published_at')
-            ->mapWithKeys(function ($item) {
+            ->mapWithKeys(function ($channel) {
                 return [$this->order++ => [
-                    'id'         => $item->id,
-                    'name'       => $item->name,
-                    'youtube_id' => $item->youtube_id,
-                    'count'      => number_format($item->videos->count(), 0, ',', '.'),
-                    'published'  => $item->latestVideo->published_at->format('d.m.Y H:i:s'),
-                    'latest'     => $item->latestVideo->youtube_id,
+                    'id'           => $channel->id,
+                    'name'         => $channel->name,
+                    'youtube_id'   => $channel->youtube_id,
+                    'count'        => number_format($channel->videos->count(), 0, ',', '.'),
+                    'published'    => $channel->latestVideo->published_at->format('d.m.Y H:i:s'),
+                    'latest'       => $channel->latestVideo->youtube_id,
+                    'broadcasters' => number_format($this->getBroadcastersCount($channel), 0, ',', '.'),
                 ]
                 ];
             });
@@ -35,5 +36,14 @@ class ChannelController extends Controller
         return Inertia::render('Channel/Index', [
             'channels' => $channels,
         ]);
+    }
+
+    protected function getBroadcastersCount($channel)
+    {
+        $channel->load(['videos.broadcasters' => function ($query) use (&$broadcasters) {
+            $broadcasters = $query->get()->unique();
+        }]);
+
+        return $broadcasters->count();
     }
 }

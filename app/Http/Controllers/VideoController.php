@@ -22,6 +22,8 @@ class VideoController extends Controller
                         ->orWhere('description', 'like', '%'.$search.'%')
                         ->orWhereHas('broadcasters', function ($query) use ($search) {
                             return $query->where('name', 'like', '%'.$search.'%')->orWhere('display_name', 'like', '%'.$search.'%');
+                        })->orWhereHas('channel', function ($query) use ($search) {
+                            return $query->where('name', 'like', '%'.$search.'%');
                         });
                 });
             })
