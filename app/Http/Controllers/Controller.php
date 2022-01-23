@@ -18,7 +18,7 @@ class Controller extends BaseController
     public function __construct()
     {
         try {
-            $this->limit = Browser::isDesktop() ? 20 : 10;
+            $this->limit = Browser::isDesktop() ? 20 : 8;
         } catch (Exception $exception) {
             $this->limit = 20;
         }

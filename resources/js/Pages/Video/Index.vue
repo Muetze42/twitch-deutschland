@@ -119,7 +119,7 @@ export default {
                 this.nextLink = response.data.broadcasters.next_page_url
                 this.seed = response.data.seed
             }).catch(error => {
-                alert(error)
+                error.response && error.response.data.message ? alert('Error '+error.response.status+': '+error.response.data.message) : alert(error.response.status)
             })
         },
         loadMore() {
@@ -132,7 +132,7 @@ export default {
                 this.nextLink = response.data.broadcasters.next_page_url
                 this.loadMoreProcess = false
             }).catch(error => {
-                alert(error)
+                error.response && error.response.data.message ? alert('Error '+error.response.status+': '+error.response.data.message) : alert(error.response.status)
             })
         },
         close() {

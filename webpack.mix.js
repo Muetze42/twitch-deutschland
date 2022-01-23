@@ -19,6 +19,8 @@ mix.js('resources/js/app.js', 'public/js')
         postCss: [tailwindcss('./tailwind.config.js')],
     })
     .sass('resources/scss/app.scss', 'public/css')
-    .version()
+    .version([
+        'public/css/error-pages.css'
+    ])
     .disableNotifications()
 ;

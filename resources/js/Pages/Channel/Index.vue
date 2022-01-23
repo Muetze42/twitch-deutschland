@@ -110,7 +110,7 @@ export default {
                 this.videos = response.data.data
                 this.nextLink = response.data.next_page_url
             }).catch(error => {
-                alert(error)
+                error.response && error.response.data.message ? alert('Error '+error.response.status+': '+error.response.data.message) : alert(error.response.status)
             })
             this.isOpen = true
         },
@@ -123,7 +123,7 @@ export default {
                 this.nextLink = response.data.next_page_url
                 this.loadMoreProcess = false
             }).catch(error => {
-                alert(error)
+                aerror.response && error.response.data.message ? alert('Error '+error.response.status+': '+error.response.data.message) : alert(error.response.status)
             })
         },
         switchVideo(youTubeId) {

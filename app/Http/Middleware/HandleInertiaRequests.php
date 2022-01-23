@@ -48,7 +48,11 @@ class HandleInertiaRequests extends Middleware
         }
 
         $route = Route::currentRouteName();
-        $pageTitle = ucfirst(explode('.', $route)[0]).' « '.config('app.name');
+        $routePart = explode('.', $route)[0];
+//        if(!$routePart && $request->input('search')) {
+//            $routePart = $request->input('search');
+//        }
+        $pageTitle = $routePart ? ucfirst($routePart).' « '.config('app.name') : '';
         view()->share('pageTitle', $pageTitle);
 
         $pageRobots = 'noindex,nofollow';

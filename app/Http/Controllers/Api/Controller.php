@@ -10,7 +10,7 @@ class Controller extends BaseController
     protected function validateRequest(Request $request)
     {
         if ($request->header('X-Requested-With') != 'XMLHttpRequest' || $request->input('hash') != md5($request->userAgent())) {
-            abort(405);
+            abort(403, 'Die Anfrage muss immer vom gleichen Browser stammen');
         }
     }
 }

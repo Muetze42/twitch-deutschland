@@ -6,7 +6,7 @@ header {
 
         @media (max-width: 425px) {
             &.open {
-                @apply flex transition-all duration-700 top-[2.6rem] w-48 h-full bg-gray-900 flex-col fixed;
+                @apply flex transition-all duration-700 top-[2.6rem] w-48 h-full bg-gray-900 flex-col fixed border-r border-gray-700;
             }
         }
 
@@ -32,6 +32,18 @@ header {
         }
         &:hover:not(.active) {
             @apply xs:bg-slate-800 text-white;
+        }
+    }
+    .mobile-bottom {
+        @apply grow flex flex-row xs:hidden items-end mb-[2.6rem];
+        div {
+            @apply flex flex-wrap;
+            a {
+                @apply w-full;
+                img {
+                    @apply mx-auto;
+                }
+            }
         }
     }
     #search {
