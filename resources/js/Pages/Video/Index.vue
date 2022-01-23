@@ -142,9 +142,8 @@ export default {
     },
     watch: {
         search: debounce(function () {
-            Inertia.post('/', {
+            Inertia.get('/', {
                 search: this.search,
-                _token: this.$page.props.csrf_token,
             }, {
                 preserveState: true,
                 replace: true,

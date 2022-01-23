@@ -17,14 +17,15 @@
         "hisorange/browser-detect": "^4.4",
         "inertiajs/inertia-laravel": "^0.5.4",
         "laravel-notification-channels/telegram": "^1.0",
-        "laravel/framework": "^8.88.1",
+        "laravel/framework": "^v8.80.0",
         "laravel/sanctum": "^2.14.0",
         "laravel/socialite": "^5.3.0",
         "laravel/tinker": "^2.7.0",
         "norman-huth/youtube-scraper": "dev-main",
         "socialiteproviders/telegram": "^4.1.2",
         "socialiteproviders/twitch": "^5.3.1",
-        "spatie/laravel-medialibrary": "9.0.0"
+        "spatie/laravel-medialibrary": "9.0.0",
+        "spatie/laravel-sitemap": "^6.1"
     },
     "require-dev": {
         "barryvdh/laravel-ide-helper": "^2.11",

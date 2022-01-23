@@ -5,10 +5,13 @@
             <div v-for="channel in channels" class="channel" @click="show(channel.id, channel.latest, channel.name, channel.youtube_id)">
                 {{ channel.name }}
                 <div class="additional">
-                    {{ channel.count }} {{ channel.count === '1' ? 'Video' : 'Videos' }},
+                    Letzte Video: {{ channel.published }}
                 </div>
                 <div class="additional">
-                    Letzte Video: {{ channel.published }}
+                    {{ channel.count }} {{ channel.count === '1' ? 'Video' : 'Videos' }}
+                </div>
+                <div class="additional">
+                    {{ channel.broadcasters }} Streams
                 </div>
             </div>
         </div>
