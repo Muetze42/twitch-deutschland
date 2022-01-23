@@ -20,9 +20,9 @@ h1 {
 
 main {
     @apply px-4 pt-4 sm:pb-14 pb-8 sm:overflow-y-auto my-[2.625rem];
-    min-height: calc(100vh - 116px);
+    min-height: calc(100vh - 68px);
     @media (min-width: 640px) {
-        height: calc(100vh - 76px);
+        height: calc(100vh - 60px);
     }
 
     &.e404 {
@@ -75,9 +75,11 @@ main {
     }
 }
 
-.lazy-developer {
-    @apply hidden xs:inline-block;
-}
-
 @import "components";
 @import "navigation";
+
+@media (max-width: 425px) {
+    .lazy-developer {
+        @apply hidden #{!important};
+    }
+}
