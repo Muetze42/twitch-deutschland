@@ -19,10 +19,8 @@ use Illuminate\Support\Facades\Route;
 */
 Route::middleware([HandleInertiaRequests::class])->group(function () {
     Route::get('/', [VideoController::class, 'index'])->name('videos.index');
-    Route::post('/', [VideoController::class, 'index']);
 
     Route::get('/streams', [BroadcasterController::class, 'index'])->name('streams.index');
-    Route::post('/streams', [BroadcasterController::class, 'index']);
 
     Route::get('/channels', [ChannelController::class, 'index'])->name('channels.index');
 });
