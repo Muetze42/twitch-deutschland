@@ -11,11 +11,16 @@
             <Link href="/" :class="{ 'active': $page.url.split('?')[0] === '/' }">Videos</Link>
             <Link href="/streams" :class="{ 'active': $page.url.split('?')[0] === '/streams' }">Streams</Link>
             <Link href="/channels" :class="{ 'active': $page.url.split('?')[0] === '/channels' }">Channels</Link>
-            <div class="grow flex xs:hidden items-end mb-[2.6rem]">
-                <a href="https://github.com/Muetze42/twitch-deutschland" target="_blank" class="flex-auto xs:hidden">
-                    <i class="fab fa-github"></i>
-                    Quellcode
-                </a>
+            <div class="mobile-bottom">
+                <div>
+                    <a href="https://github.com/Muetze42/twitch-deutschland" target="_blank">
+                        <i class="fab fa-github"></i>
+                        Quellcode
+                    </a>
+                    <a href="https://www.netcup.de/?ref=177959" target="_blank" class="py-0">
+                        <img src="/assets/netcup/netcup-hlogo-2019-b110h50.png" alt="Norman Huth">
+                    </a>
+                </div>
             </div>
         </nav>
         <div id="search-top"></div>
@@ -67,7 +72,10 @@ export default {
         }
     },
     updated() {
-        document.title = this.pageTitle
+        if (this.pageTitle) {
+            document.title = this.pageTitle
+            console.log(this.pageTitle)
+        }
     },
     mounted() {
         Inertia.on("success", (event) => {

@@ -17,3 +17,22 @@ if (!function_exists('lastAnd')) {
         return substr_replace($string, ' '.$word, strrpos($string, $glue), 1);
     }
 }
+
+
+if (!function_exists('errorImage')) {
+    /**
+     * @param int $errorCode
+     * @return string
+     */
+    function errorImage(int $errorCode): string
+    {
+        $errorImages = [
+            '401' => '403.svg',
+            '403' => '403.svg',
+            '404' => '404.svg',
+            '500' => '503.svg',
+        ];
+
+        return $errorImages[$errorCode] ?? '404.svg';
+    }
+}
