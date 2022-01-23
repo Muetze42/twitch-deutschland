@@ -23,7 +23,8 @@
     <div class="modal-container" v-if="isOpen">
         <div class="modal">
             <div class="modal-bg">
-                <div @click="close()"></div>
+<!--                <div @click="close()"></div>-->
+                <div></div>
             </div>
             <span class="align"></span>
             <div class="modal-body" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
@@ -106,6 +107,7 @@ export default {
     },
     methods: {
         show(video, title, youtube_id) {
+            document.body.classList.add('modal-open')
             this.broadcasters = {}
             this.youtube_id = youtube_id
             this.title = title
@@ -134,6 +136,7 @@ export default {
             })
         },
         close() {
+            document.body.classList.remove('modal-open')
             this.isOpen = false
         }
     },
