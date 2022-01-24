@@ -19,11 +19,9 @@ h1 {
 }
 
 main {
-    @apply px-4 pt-4 sm:pb-14 pb-8 sm:overflow-y-auto my-[2.625rem];
-    min-height: calc(100vh - 68px);
-    @media (min-width: 640px) {
-        height: calc(100vh - 60px);
-    }
+    @apply px-4 pt-4 sm:pb-24 pb-20 sm:overflow-y-auto;
+    height: calc(100vh - 34px);
+    margin-top: 42px;
 
     &.e404 {
         @apply bg-no-repeat bg-top;
