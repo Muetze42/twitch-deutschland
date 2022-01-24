@@ -28,9 +28,9 @@ class BroadcasterController extends Controller
             ->through(fn($broadcaster) => [
                 'id'    => $broadcaster->id,
                 'first' => $broadcaster->videos()->first() ? $broadcaster->videos()->first()->youtube_id : null,
-                'name'  => e($broadcaster->display_name),
+                'name'  => $broadcaster->display_name,
                 'logo'  => $broadcaster->getFirstMediaUrl('logo'),
-                'count' => number_format($broadcaster->video_count, 0, ',', '.'),
+                'count' => number_format($broadcaster->videos_count, 0, ',', '.'),
             ]);
 
         return Inertia::render('Broadcaster/Index', [
