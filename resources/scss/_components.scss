@@ -4,7 +4,7 @@
 |--------------------------------------------------------------------------
 */
 .pagination {
-    @apply mt-12 px-4 flex flex-wrap justify-center max-w-6xl mx-auto;
+    @apply my-12 px-4 pb-12 flex flex-wrap justify-center max-w-6xl mx-auto;
 
     a, span {
         &:hover:not(.disabled):not(.current) {

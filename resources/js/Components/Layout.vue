@@ -74,7 +74,6 @@ export default {
     updated() {
         if (this.pageTitle) {
             document.title = this.pageTitle
-            console.log(this.pageTitle)
         }
     },
     mounted() {

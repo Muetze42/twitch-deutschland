@@ -90,6 +90,6 @@ class Broadcaster extends Model implements HasMedia
      */
     public function scopeOrdered(Builder $query): Builder
     {
-        return $query->orderByDesc('video_count')->orderByDesc('updated_at');
+        return $query->withCount('videos')->orderByDesc('videos_count');
     }
 }

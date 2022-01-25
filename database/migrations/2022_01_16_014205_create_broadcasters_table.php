@@ -20,7 +20,6 @@ return new class extends Migration
             $table->string('display_name');
             $table->string('logo')->nullable();
             $table->json('old_names')->nullable();
-            $table->unsignedBigInteger('video_count')->default(0);
             $table->timestamps();
         });
     }
