@@ -15,9 +15,15 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('youtube-scraper:subscriptions')->everyFifteenMinutes();
-        $schedule->command('youtube-scraper:update:timed')->hourlyAt(17);
-        $schedule->command('youtube-scraper:update:twitch-users')->hourlyAt('47');
+        $schedule->command('youtube-scraper:subscriptions')
+            ->everyFifteenMinutes();
+        $schedule->command('youtube-scraper:update:timed')
+            ->hourlyAt(17);
+        $schedule->command('youtube-scraper:update:twitch-users')
+            ->hourlyAt('47');
+        $schedule->command('laravel-optimize:spatie-media')
+            ->everyMinute()
+            ->withoutOverlapping();
     }
 
     /**
