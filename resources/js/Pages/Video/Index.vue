@@ -23,8 +23,7 @@
     <div class="modal-container" v-if="isOpen">
         <div class="modal">
             <div class="modal-bg">
-<!--                <div @click="close()"></div>-->
-                <div></div>
+                <div @click="close()" class="cursor-zoom-out"></div>
             </div>
             <span class="align"></span>
             <div class="modal-body" role="dialog" aria-modal="true" aria-labelledby="modal-headline">
