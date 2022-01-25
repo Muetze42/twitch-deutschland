@@ -76,7 +76,7 @@ main {
 @import "components";
 @import "navigation";
 
-@media (max-width: 425px) {
+@media (max-width: 640px) {
     .lazy-developer {
         @apply hidden #{!important};
     }

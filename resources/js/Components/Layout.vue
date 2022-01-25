@@ -77,7 +77,7 @@ export default {
         }
     },
     mounted() {
-        Inertia.on("success", (event) => {
+        Inertia.on('success', (event) => {
             if (this.open) {
                 document.body.classList.remove('menu-open')
                 this.open = false

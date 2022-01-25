@@ -3109,12 +3109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Muetze42/youtube-scraper.git",
-                "reference": "72a6e575c504248561261e6db93cfeeb8e3e404a"
+                "reference": "45952d8f147cdf424540b6109f712c523e8046ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Muetze42/youtube-scraper/zipball/72a6e575c504248561261e6db93cfeeb8e3e404a",
-                "reference": "72a6e575c504248561261e6db93cfeeb8e3e404a",
+                "url": "https://api.github.com/repos/Muetze42/youtube-scraper/zipball/45952d8f147cdf424540b6109f712c523e8046ac",
+                "reference": "45952d8f147cdf424540b6109f712c523e8046ac",
                 "shasum": ""
             },
             "require": {
@@ -3146,7 +3146,7 @@
                 "source": "https://github.com/Muetze42/youtube-scraper/tree/main",
                 "issues": "https://github.com/Muetze42/youtube-scraper/issues"
             },
-            "time": "2022-01-24T17:00:28+00:00"
+            "time": "2022-01-25T07:23:02+00:00"
         },
         {
             "name": "opis/closure",
@@ -7246,16 +7246,16 @@
         },
         {
             "name": "voku/portable-ascii",
-            "version": "1.6.0",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/voku/portable-ascii.git",
-                "reference": "1f8b372a927ab2d17dbdab443aefbfe6a5354284"
+                "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/1f8b372a927ab2d17dbdab443aefbfe6a5354284",
-                "reference": "1f8b372a927ab2d17dbdab443aefbfe6a5354284",
+                "url": "https://api.github.com/repos/voku/portable-ascii/zipball/87337c91b9dfacee02452244ee14ab3c43bc485a",
+                "reference": "87337c91b9dfacee02452244ee14ab3c43bc485a",
                 "shasum": ""
             },
             "require": {
@@ -7292,7 +7292,7 @@
             ],
             "support": {
                 "issues": "https://github.com/voku/portable-ascii/issues",
-                "source": "https://github.com/voku/portable-ascii/tree/1.6.0"
+                "source": "https://github.com/voku/portable-ascii/tree/1.6.1"
             },
             "funding": [
                 {
@@ -7316,7 +7316,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-01-24T09:37:53+00:00"
+            "time": "2022-01-24T18:55:24+00:00"
         },
         {
             "name": "webmozart/assert",
@@ -7380,16 +7380,16 @@
     "packages-dev": [
         {
             "name": "barryvdh/laravel-ide-helper",
-            "version": "v2.12.0",
+            "version": "v2.12.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/barryvdh/laravel-ide-helper.git",
-                "reference": "771770e56cbb22bdbe507613d3685b13e73b1776"
+                "reference": "999167d4c21e2ae748847f7c0e4565ae45f5c9f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/771770e56cbb22bdbe507613d3685b13e73b1776",
-                "reference": "771770e56cbb22bdbe507613d3685b13e73b1776",
+                "url": "https://api.github.com/repos/barryvdh/laravel-ide-helper/zipball/999167d4c21e2ae748847f7c0e4565ae45f5c9f9",
+                "reference": "999167d4c21e2ae748847f7c0e4565ae45f5c9f9",
                 "shasum": ""
             },
             "require": {
@@ -7458,7 +7458,7 @@
             ],
             "support": {
                 "issues": "https://github.com/barryvdh/laravel-ide-helper/issues",
-                "source": "https://github.com/barryvdh/laravel-ide-helper/tree/v2.12.0"
+                "source": "https://github.com/barryvdh/laravel-ide-helper/tree/v2.12.1"
             },
             "funding": [
                 {
@@ -7470,7 +7470,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2022-01-23T16:50:53+00:00"
+            "time": "2022-01-24T21:36:43+00:00"
         },
         {
             "name": "barryvdh/reflection-docblock",
