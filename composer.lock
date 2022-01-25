@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "989f79a5f40f8547bdf095568aa4b5af",
+    "content-hash": "d669a100b5fdbaa25e1dc3bd47db27cc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3102,6 +3102,50 @@
                 "source": "https://github.com/nikic/PHP-Parser/tree/v4.13.2"
             },
             "time": "2021-11-30T19:35:32+00:00"
+        },
+        {
+            "name": "norman-huth/laravel-optimize",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:Muetze42/laravel-optimize.git",
+                "reference": "eb178c2961efc575a8dacf6887a5b8741ba5ca93"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/eb178c2961efc575a8dacf6887a5b8741ba5ca93",
+                "reference": "eb178c2961efc575a8dacf6887a5b8741ba5ca93",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": "^8.0"
+            },
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "NormanHuth\\LaravelOptimize\\ServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "NormanHuth\\LaravelOptimize\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Norman Huth",
+                    "email": "norman@huth.it"
+                }
+            ],
+            "support": {
+                "source": "https://github.com/Muetze42/laravel-optimize/tree/main",
+                "issues": "https://github.com/Muetze42/laravel-optimize/issues"
+            },
+            "time": "2022-01-25T21:16:58+00:00"
         },
         {
             "name": "norman-huth/youtube-scraper",
@@ -11186,6 +11230,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "norman-huth/laravel-optimize": 20,
         "norman-huth/youtube-scraper": 20
     },
     "prefer-stable": true,

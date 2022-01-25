@@ -8,6 +8,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/Muetze42/youtube-scraper.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/Muetze42/laravel-optimize.git"
         }
     ],
     "require": {
@@ -21,6 +25,7 @@
         "laravel/sanctum": "^2.14.0",
         "laravel/socialite": "^5.3.0",
         "laravel/tinker": "^2.7.0",
+        "norman-huth/laravel-optimize": "dev-main",
         "norman-huth/youtube-scraper": "dev-main",
         "socialiteproviders/telegram": "^4.1.2",
         "socialiteproviders/twitch": "^5.3.1",
