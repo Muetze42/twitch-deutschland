@@ -7,8 +7,8 @@ import { InertiaProgress } from '@inertiajs/progress'
 import Layout from './Components/Layout'
 
 createInertiaApp({
-    resolve: name => {
-        let page = require(`./Pages/${name}`).default;
+    resolve: async name => {
+        let page = (await import(`./Pages/${name}`)).default;
 
         if (page.layout === undefined) {
             page.layout = Layout;

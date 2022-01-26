@@ -13,6 +13,7 @@ const tailwindcss = require('tailwindcss');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+    .extract()
     .vue(3)
     .options({
         processCssUrls: false,

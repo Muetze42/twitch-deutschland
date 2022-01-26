@@ -1678,16 +1678,16 @@
         },
         {
             "name": "laravel/socialite",
-            "version": "v5.3.0",
+            "version": "v5.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/socialite.git",
-                "reference": "4e6f7e40de9a54ad641de5b8e29cdf1e73842e10"
+                "reference": "4b1999232a572dfe61f42c7295490d1372dad097"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/socialite/zipball/4e6f7e40de9a54ad641de5b8e29cdf1e73842e10",
-                "reference": "4e6f7e40de9a54ad641de5b8e29cdf1e73842e10",
+                "url": "https://api.github.com/repos/laravel/socialite/zipball/4b1999232a572dfe61f42c7295490d1372dad097",
+                "reference": "4b1999232a572dfe61f42c7295490d1372dad097",
                 "shasum": ""
             },
             "require": {
@@ -1743,7 +1743,7 @@
                 "issues": "https://github.com/laravel/socialite/issues",
                 "source": "https://github.com/laravel/socialite"
             },
-            "time": "2022-01-12T18:05:39+00:00"
+            "time": "2022-01-25T20:10:22+00:00"
         },
         {
             "name": "laravel/tinker",
@@ -3109,16 +3109,18 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Muetze42/laravel-optimize.git",
-                "reference": "eb178c2961efc575a8dacf6887a5b8741ba5ca93"
+                "reference": "9716b24a47157f74f892a42d874f55a4b8c9cff3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/eb178c2961efc575a8dacf6887a5b8741ba5ca93",
-                "reference": "eb178c2961efc575a8dacf6887a5b8741ba5ca93",
+                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/9716b24a47157f74f892a42d874f55a4b8c9cff3",
+                "reference": "9716b24a47157f74f892a42d874f55a4b8c9cff3",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
+                "ext-exif": "*",
+                "ext-imagick": "*",
                 "php": "^8.0"
             },
             "default-branch": true,
@@ -3145,7 +3147,7 @@
                 "source": "https://github.com/Muetze42/laravel-optimize/tree/main",
                 "issues": "https://github.com/Muetze42/laravel-optimize/issues"
             },
-            "time": "2022-01-25T21:16:58+00:00"
+            "time": "2022-01-26T21:14:55+00:00"
         },
         {
             "name": "norman-huth/youtube-scraper",
@@ -3153,12 +3155,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Muetze42/youtube-scraper.git",
-                "reference": "0a5ba8d2dab58951d53cb35c4cff76b7324c8870"
+                "reference": "6039e966493e73160bfa3d0c547dc892cbc25bb8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Muetze42/youtube-scraper/zipball/0a5ba8d2dab58951d53cb35c4cff76b7324c8870",
-                "reference": "0a5ba8d2dab58951d53cb35c4cff76b7324c8870",
+                "url": "https://api.github.com/repos/Muetze42/youtube-scraper/zipball/6039e966493e73160bfa3d0c547dc892cbc25bb8",
+                "reference": "6039e966493e73160bfa3d0c547dc892cbc25bb8",
                 "shasum": ""
             },
             "require": {
@@ -3190,7 +3192,7 @@
                 "source": "https://github.com/Muetze42/youtube-scraper/tree/main",
                 "issues": "https://github.com/Muetze42/youtube-scraper/issues"
             },
-            "time": "2022-01-25T18:23:28+00:00"
+            "time": "2022-01-26T20:24:58+00:00"
         },
         {
             "name": "opis/closure",
