@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ $pageTitle }}</title>
     <link href="{{ mix('/css/app.css') }}" rel="stylesheet">
+    <script src="{{ mix('/js/manifest.js') }}" defer></script>
+    <script src="{{ mix('/js/vendor.js') }}" defer></script>
     <script src="{{ mix('/js/app.js') }}" defer></script>
     <meta name="robots" content="{{ $pageRobots }}" />
     @if(!empty($metaDescription))
