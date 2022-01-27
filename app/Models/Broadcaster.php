@@ -17,7 +17,6 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  * @property string $name
  * @property string $display_name
  * @property string|null $logo
- * @property int $video_count
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Models\Video[] $videos
@@ -39,6 +38,7 @@ use Spatie\MediaLibrary\InteractsWithMedia;
  * @method static Builder|Broadcaster whereOldNames($value)
  * @property-read \Spatie\MediaLibrary\MediaCollections\Models\Collections\MediaCollection|\Spatie\MediaLibrary\MediaCollections\Models\Media[] $media
  * @property-read int|null $media_count
+ * @property int $video_count
  */
 class Broadcaster extends Model implements HasMedia
 {
@@ -55,7 +55,6 @@ class Broadcaster extends Model implements HasMedia
         'display_name',
         'logo',
         'old_names',
-        'video_count',
     ];
 
     /**
@@ -64,7 +63,6 @@ class Broadcaster extends Model implements HasMedia
      * @var array
      */
     protected $casts = [
-        'video_count' => 'int',
         'old_names'   => 'array',
     ];
 

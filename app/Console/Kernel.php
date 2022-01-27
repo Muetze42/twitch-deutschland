@@ -21,9 +21,6 @@ class Kernel extends ConsoleKernel
             ->hourlyAt(17);
         $schedule->command('youtube-scraper:update:twitch-users')
             ->hourlyAt('47');
-        $schedule->command('laravel-optimize:spatie-media')
-            ->everyMinute()
-            ->withoutOverlapping();
     }
 
     /**
