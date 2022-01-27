@@ -3109,12 +3109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Muetze42/laravel-optimize.git",
-                "reference": "9716b24a47157f74f892a42d874f55a4b8c9cff3"
+                "reference": "6bde4d2f4b0117db03d78fa70cb6396174c6f67a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/9716b24a47157f74f892a42d874f55a4b8c9cff3",
-                "reference": "9716b24a47157f74f892a42d874f55a4b8c9cff3",
+                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/6bde4d2f4b0117db03d78fa70cb6396174c6f67a",
+                "reference": "6bde4d2f4b0117db03d78fa70cb6396174c6f67a",
                 "shasum": ""
             },
             "require": {
@@ -3147,7 +3147,7 @@
                 "source": "https://github.com/Muetze42/laravel-optimize/tree/main",
                 "issues": "https://github.com/Muetze42/laravel-optimize/issues"
             },
-            "time": "2022-01-26T21:14:55+00:00"
+            "time": "2022-01-27T22:16:32+00:00"
         },
         {
             "name": "norman-huth/youtube-scraper",
@@ -3196,16 +3196,16 @@
         },
         {
             "name": "opis/closure",
-            "version": "3.6.2",
+            "version": "3.6.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opis/closure.git",
-                "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6"
+                "reference": "3d81e4309d2a927abbe66df935f4bb60082805ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opis/closure/zipball/06e2ebd25f2869e54a306dda991f7db58066f7f6",
-                "reference": "06e2ebd25f2869e54a306dda991f7db58066f7f6",
+                "url": "https://api.github.com/repos/opis/closure/zipball/3d81e4309d2a927abbe66df935f4bb60082805ad",
+                "reference": "3d81e4309d2a927abbe66df935f4bb60082805ad",
                 "shasum": ""
             },
             "require": {
@@ -3255,9 +3255,9 @@
             ],
             "support": {
                 "issues": "https://github.com/opis/closure/issues",
-                "source": "https://github.com/opis/closure/tree/3.6.2"
+                "source": "https://github.com/opis/closure/tree/3.6.3"
             },
-            "time": "2021-04-09T13:42:10+00:00"
+            "time": "2022-01-27T09:35:39+00:00"
         },
         {
             "name": "phpoption/phpoption",
