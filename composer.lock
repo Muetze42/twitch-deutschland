@@ -3109,12 +3109,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:Muetze42/laravel-optimize.git",
-                "reference": "6bde4d2f4b0117db03d78fa70cb6396174c6f67a"
+                "reference": "c9e5b7263384c1a011dd33a61637251090abec82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/6bde4d2f4b0117db03d78fa70cb6396174c6f67a",
-                "reference": "6bde4d2f4b0117db03d78fa70cb6396174c6f67a",
+                "url": "https://api.github.com/repos/Muetze42/laravel-optimize/zipball/c9e5b7263384c1a011dd33a61637251090abec82",
+                "reference": "c9e5b7263384c1a011dd33a61637251090abec82",
                 "shasum": ""
             },
             "require": {
@@ -3147,7 +3147,7 @@
                 "source": "https://github.com/Muetze42/laravel-optimize/tree/main",
                 "issues": "https://github.com/Muetze42/laravel-optimize/issues"
             },
-            "time": "2022-01-27T22:16:32+00:00"
+            "time": "2022-01-27T22:31:56+00:00"
         },
         {
             "name": "norman-huth/youtube-scraper",
