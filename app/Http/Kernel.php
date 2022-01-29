@@ -37,7 +37,7 @@ class Kernel extends HttpKernel
             \Illuminate\View\Middleware\ShareErrorsFromSession::class,
             \App\Http\Middleware\VerifyCsrfToken::class,
             \Illuminate\Routing\Middleware\SubstituteBindings::class,
-            \NormanHuth\LaravelOptimize\Http\Middleware\CompressHTML::class,
+            \NormanHuth\LaravelOptimize\Http\Middleware\LaravelOptimize::class,
         ],
 
         'api' => [

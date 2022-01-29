@@ -18,7 +18,7 @@
                         Quellcode
                     </a>
                     <a href="https://www.netcup.de/?ref=177959" target="_blank" class="py-0">
-                        <img src="/assets/netcup/netcup-hlogo-2019-b110h50.png" alt="Norman Huth">
+                        <img :src="webp ? '/assets/netcup/netcup-hlogo-2019-b110h50.webp' : '/assets/netcup/netcup-hlogo-2019-b110h50.png'" alt="Norman Huth">
                     </a>
                 </div>
             </div>
@@ -42,7 +42,7 @@
                 Quellcode
             </a>
             <a href="https://www.netcup.de/?ref=177959" target="_blank" class="netcup">
-                <img src="/assets/netcup/netcup-hlogo-2019-b110h50.png" alt="Norman Huth">
+                <img :src="webp ? '/assets/netcup/netcup-hlogo-2019-b110h50.webp' : '/assets/netcup/netcup-hlogo-2019-b110h50.png'" alt="Norman Huth">
             </a>
         </div>
     </footer>
@@ -60,6 +60,7 @@ export default {
     data() {
         return {
             open: false,
+            webp: self.createImageBitmap,
         }
     },
     components: {

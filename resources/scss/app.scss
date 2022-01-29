@@ -4,7 +4,16 @@
 
 body {
     @apply bg-slate-900 text-white sm:overflow-hidden;
-    background-image: url(/assets/pattern.png);
+}
+@supports not (background-image: url("/assets/pattern.webp")) {
+    body {
+        background-image: url("/assets/pattern.png")
+    }
+}
+@supports (background-image: url("/assets/pattern.webp")) {
+    body {
+        background-image: url("/assets/pattern.webp")
+    }
 }
 
 a {
