@@ -4,6 +4,7 @@ use App\Http\Controllers\Api\BroadcasterController;
 use App\Http\Controllers\Api\ChannelController;
 use App\Http\Controllers\Api\VideoController;
 use Illuminate\Support\Facades\Route;
+use NormanHuth\LaravelOptimize\Http\Middleware\LaravelOptimizeApi;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,7 +17,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-
-Route::post('/video/{video}', [VideoController::class, 'show'])->name('video.show');
-Route::post('/broadcaster/{broadcaster}', [BroadcasterController::class, 'show'])->name('broadcaster.show');
-Route::post('/channel/{channel}', [ChannelController::class, 'show'])->name('channel.show');
+Route::middleware([LaravelOptimizeApi::class])->group(function () {
+    Route::post('/video/{video}', [VideoController::class, 'show'])->name('video.show');
+    Route::post('/broadcaster/{broadcaster}', [BroadcasterController::class, 'show'])->name('broadcaster.show');
+    Route::post('/channel/{channel}', [ChannelController::class, 'show'])->name('channel.show');
+});
