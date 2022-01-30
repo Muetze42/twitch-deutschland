@@ -14,7 +14,7 @@
             <div class="mobile-bottom">
                 <div>
                     <a href="https://github.com/Muetze42/twitch-deutschland" target="_blank">
-                        <i class="fab fa-github"></i>
+                        <font-awesome-icon :icon="['fab', 'github']" class="fa-fw" />
                         Quellcode
                     </a>
                     <a href="https://www.netcup.de/?ref=177959" target="_blank" class="py-0">

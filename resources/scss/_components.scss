@@ -162,7 +162,7 @@ $spinner-size: 5rem;
             }
             .close {
                 @apply text-right;
-                i {
+                i, svg {
                     @apply text-xl cursor-pointer hover:text-fuchsia-500 mr-1;
                 }
             }

@@ -9,11 +9,11 @@ import Layout from './Components/Layout'
 /* Font Awesome */
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { faBars, faTimes } from "@fortawesome/pro-solid-svg-icons";
-import { faCopyright } from "@fortawesome/pro-light-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faCopyright, faWindowClose } from "@fortawesome/pro-light-svg-icons";
+import { faGithub, faTwitch } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
-library.add(faBars, faTimes, faCopyright, faGithub);
+library.add(faBars, faTimes, faCopyright, faGithub, faTwitch, faWindowClose);
 
 createInertiaApp({
     // resolve: async name => {

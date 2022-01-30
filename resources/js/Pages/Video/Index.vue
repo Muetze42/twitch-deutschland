@@ -35,7 +35,7 @@
                             </span>
                         </div>
                         <div class="close">
-                            <i class="fal fa-window-close" @click="close()"></i>
+                            <font-awesome-icon :icon="['fal', 'window-close']" class="fa-fw" @click="close()" />
                         </div>
                     </div>
                     <div class="aspect-w-16 aspect-h-9">
@@ -46,7 +46,7 @@
                             <div>
                                 <img :src="broadcaster.logo" :alt="broadcaster.name" width="50" height="50">
                                 <a :href="'https://www.twitch.tv/'+broadcaster.name.toLowerCase()" target="_blank" rel="noopener">
-                                    <i class="fab fa-twitch fa-fw"></i>
+                                    <font-awesome-icon :icon="['fab', 'twitch']" class="fa-fw" />
                                     {{ broadcaster.name }}
                                 </a>
                             </div>

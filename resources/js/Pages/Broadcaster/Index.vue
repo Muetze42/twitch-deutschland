@@ -30,13 +30,13 @@
                         <div class="title">
                             <span>
                                 <a :href="'https://www.twitch.tv/'+name.toLowerCase()" target="_blank" rel="noopener">
-                                    <i class="fab fa-twitch fa-fw"></i>
+                                    <font-awesome-icon :icon="['fab', 'twitch']" class="fa-fw" />
                                     {{ name }}
                                 </a>
                             </span>
                         </div>
                         <div class="close">
-                            <i class="fal fa-window-close" @click="close()"></i>
+                            <font-awesome-icon :icon="['fal', 'window-close']" class="fa-fw" @click="close()" />
                         </div>
                     </div>
                     <div class="aspect-w-16 aspect-h-9">

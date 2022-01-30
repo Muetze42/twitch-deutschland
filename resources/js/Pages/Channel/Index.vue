@@ -33,7 +33,7 @@
                             </span>
                         </div>
                         <div class="close">
-                            <i class="fal fa-window-close" @click="close()"></i>
+                            <font-awesome-icon :icon="['fal', 'window-close']" class="fa-fw" @click="close()" />
                         </div>
                     </div>
                     <div class="aspect-w-16 aspect-h-9">
