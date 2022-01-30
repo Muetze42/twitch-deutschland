@@ -52,8 +52,4 @@ return [
         'redirect'      => env('TELEGRAM_REDIRECT_URI'),
         'dev-receiver'  => env('TELEGRAM_DEV_RECEIVER'),
     ],
-
-    'font-awesome' => [
-        'kit-id' => env('FONT_AWESOME_KIT'),
-    ],
 ];
