@@ -5,6 +5,7 @@ namespace App\Http\Middleware;
 use App\Models\Broadcaster;
 use App\Models\Channel;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Route;
 use Inertia\Middleware;
 use Browser;
@@ -44,14 +45,12 @@ class HandleInertiaRequests extends Middleware
         try {
             $browser = Browser::isDesktop() ? 'desktop' : 'mobile';
         } catch (Exception $exception) {
+            Log::error($exception);
             $browser = 'mobile';
         }
 
         $route = Route::currentRouteName();
         $routePart = explode('.', $route)[0];
-//        if(!$routePart && $request->input('search')) {
-//            $routePart = $request->input('search');
-//        }
         $pageTitle = $routePart ? ucfirst($routePart).' « '.config('app.name') : '';
         view()->share('pageTitle', $pageTitle);
 
