@@ -7,11 +7,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/Muetze42/youtube-scraper.git"
+            "url": "https://github.com/Muetze42/laravel-optimize.git"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/Muetze42/laravel-optimize.git"
+            "url": "https://github.com/Muetze42/youtube-scraper.git"
         }
     ],
     "require": {
