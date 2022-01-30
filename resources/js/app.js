@@ -16,17 +16,8 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faBars, faTimes, faCopyright, faGithub, faTwitch, faWindowClose);
 
 createInertiaApp({
-    // resolve: async name => {
-    //     let page = (await import(`./Pages/${name}`)).default;
-    //
-    //     if (page.layout === undefined) {
-    //         page.layout = Layout;
-    //     }
-    //
-    //     return page;
-    // },
-    resolve: name => {
-        let page = require(`./Pages/${name}`).default;
+    resolve: async name => {
+        let page = (await import(`./Pages/${name}`)).default;
 
         if (page.layout === undefined) {
             page.layout = Layout;
@@ -34,6 +25,15 @@ createInertiaApp({
 
         return page;
     },
+    // resolve: name => {
+    //     let page = require(`./Pages/${name}`).default;
+    //
+    //     if (page.layout === undefined) {
+    //         page.layout = Layout;
+    //     }
+    //
+    //     return page;
+    // },
     setup({ el, App, props, plugin }) {
         createApp({ render: () => h(App, props) })
             .use(plugin)
