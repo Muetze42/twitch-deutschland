@@ -2,8 +2,8 @@
     <header>
         <div id="mobile-nav">
             <a @click="toggle()">
-                <i v-if="open" class="fas fa-times menu-switch fa-fw"></i>
-                <i v-else class="fas fa-bars fa-fw"></i>
+                <font-awesome-icon v-if="open" :icon="['fas', 'times']" class="menu-switch fa-fw" />
+                <font-awesome-icon v-else :icon="['fas', 'bars']" class="fa-fw" />
                 Menu
             </a>
         </div>
@@ -30,7 +30,7 @@
     <footer>
         <div class="author">
             <div>
-                Site <i class="fal fa-copyright"></i> 2022 by
+                Site <font-awesome-icon :icon="['fal', 'copyright']" /> 2022 by
                 <a href="https://huth.it" target="_blank">
                     Norman Huth
                 </a>
@@ -38,7 +38,7 @@
         </div>
         <div class="more">
             <a href="https://github.com/Muetze42/twitch-deutschland" target="_blank">
-                <i class="fab fa-github"></i>
+                <font-awesome-icon :icon="['fab', 'github']" class="fa-fw" />
                 Quellcode
             </a>
             <a href="https://www.netcup.de/?ref=177959" target="_blank" class="netcup">

@@ -6,6 +6,15 @@ import { createInertiaApp, Link } from '@inertiajs/inertia-vue3'
 import { InertiaProgress } from '@inertiajs/progress'
 import Layout from './Components/Layout'
 
+/* Font Awesome */
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faBars, faTimes } from "@fortawesome/pro-solid-svg-icons";
+import { faCopyright } from "@fortawesome/pro-light-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
+
+library.add(faBars, faTimes, faCopyright, faGithub);
+
 createInertiaApp({
     // resolve: async name => {
     //     let page = (await import(`./Pages/${name}`)).default;
@@ -29,6 +38,7 @@ createInertiaApp({
         createApp({ render: () => h(App, props) })
             .use(plugin)
             .component("Link", Link)
+            .component("font-awesome-icon", FontAwesomeIcon)
             .mount(el)
     },
 })

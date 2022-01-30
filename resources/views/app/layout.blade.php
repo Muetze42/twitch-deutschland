@@ -28,9 +28,5 @@
 </head>
 <body>
 @inertia
-@php $fontAwesome = config('services.font-awesome.kit-id') @endphp
-@if($fontAwesome)
-    <script src="https://kit.fontawesome.com/{{ $fontAwesome }}.js" crossorigin="anonymous"></script>
-@endif
 </body>
 </html>
