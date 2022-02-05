@@ -20,7 +20,8 @@ class BroadcasterController extends Controller
             ->when(Request::input('search'), function ($query, $search) {
                 $query->where(function ($query) use ($search) {
                     $query->where('name', 'like', '%'.$search.'%')
-                        ->orWhere('display_name', 'like', '%'.$search.'%');
+                        ->orWhere('display_name', 'like', '%'.$search.'%')
+                        ->orWhere('old_names', 'like', '%'.$search.'%');
                 });
             })
             ->paginate($this->limit)
