@@ -37,6 +37,9 @@
             </div>
         </div>
         <div class="more">
+            <a href="https://huth.it/imprint" target="_blank">
+                Impressum
+            </a>
             <a href="https://github.com/Muetze42/twitch-deutschland" target="_blank">
                 <font-awesome-icon :icon="['fab', 'github']" class="fa-fw" />
                 Quellcode
